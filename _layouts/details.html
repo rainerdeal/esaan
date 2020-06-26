@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+{% include jumbotron.html %}
+
+<div class="content">
+    <div class="container">
+
+        <div class="sticker-wrapper">
+            <div class="sticker">
+                <h1 class="title">{{ page.title }}</h1>
+            </div>
+        </div>
+
+        <center><a href="{{ page.source_link }}" class="btn btn-dark">{{ page.source_link_name }}</a></center>
+        <center><p><small class="text-muted">{{ page.description }}</small></p></center>
+
+        {{ content }}
+
+    </div>
+</div>

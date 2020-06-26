@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+{% include jumbotron.html %}
+
+<div class="content">
+    <div class="container">
+
+        <div class="sticker-wrapper">
+            <div class="sticker">
+                <h1 class="title">{{ page.title }}</h1>
+            </div>
+        </div>
+
+        <center><p><small class="text-muted">{{ page.date | date: '%B %-d, %Y' }}</small></p></center>
+
+        {% if page.soundcloud != null %}
+            {% include soundcloud.html %}
+        {% elsif page.spotify != null %}
+            {% include spotify.html %}
+        {% elsif page.youtube != null %}
+            {% include youtube.html %}
+        {% endif %}
+
+        {{ content }}
+
+    </div>
+</div>

@@ -1,0 +1,21 @@
+-
+  day: Monday
+  time: closed
+-
+  day: Tuesday
+  time: 3pm - 9pm
+-
+  day: Wednesday
+  time: 3pm - 9pm
+-
+  day: Thursday
+  time: 3pm - 9:30pm
+-
+  day: Friday
+  time: 11am - 9:30pm
+-
+  day: Saturday
+  time: 11:30am - 9:30pm
+-
+  day: Sunday
+  time: 11:30am - 9pm

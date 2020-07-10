@@ -5,11 +5,17 @@
     color: white
     .bio
         padding-top: 5%
-        padding-left: 20%
-        padding-right: 20%
         padding-bottom: 5%
-        .card
-            background-color: black
+        .card-columns
+            column-count: 3
+            @include tablet
+                column-count: 2
+            @include mobile
+                column-count: 1
+            .card
+                background-color: black
+                p
+                    margin-bottom: 0
 
 .ending
     clear: both
@@ -33,3 +39,5 @@
         text-align: right
         padding-bottom: 1%
         margin-bottom: 0
+        a
+            padding: 0

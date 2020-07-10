@@ -3,7 +3,6 @@
 title: Esaan Tumbar
 description: Esaan Tumbar is a gourmet, Northeast-Thailand style restaurant in Mclean, Virginia.
 permalink: /:categories/:title
-author:
 url: https://esaantumbar.com #https://rickydeal.io
 
 sass:
@@ -15,12 +14,31 @@ plugins:
 
 # Collections
 collections:
-  food:
+  apps:
     permalink: /:collection/:name
     output: true
-  drink:
+  beef:
     permalink: /:collection/:name
     output: true
+  chicken:
+    permalink: /:collection/:name
+    output: true
+  fish:
+    permalink: /:collection/:name
+    output: true
+  pork:
+    permalink: /:collection/:name
+    output: true
+  seafood:
+    permalink: /:collection/:name
+    output: true
+  somtum:
+    permalink: /:collection/:name
+    output: true
+  veggie:
+    permalink: /:collection/:name
+    output: true
+collections_dir: _food
 
 # Defaults for different page types
 defaults:
@@ -35,21 +53,3 @@ defaults:
       type: "pages"
     values:
       layout: default
-  -
-    scope:
-      path: ""
-      type: "portfolio"
-    values:
-      layout: details
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: post
-      image: null
-      youtube: null
-      spotify: null
-      soundcloud: null
-      categories: []
-      tags: []

@@ -1,0 +1,25 @@
+---
+layout: default
+title: Esaan Tumbar - Drink Menu
+---
+<div class="container">
+
+    <div class="sticker-wrapper">
+        <div class="sticker">
+            <h1 class="title">Drink Menu</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        {% for section in page.menu %}
+            <div class="row">
+                {% for item in section %}
+                    <div class="col-md">
+                        {{ item.name }}
+                    </div>
+                {% endfor %}
+            </div>
+        {% endfor %}
+    </div>
+
+</div>

@@ -1,0 +1,325 @@
+---
+layout: default
+title: Esaan Tumbar - Menu
+---
+<div class="container">
+
+    <div class="sticker-wrapper">
+        <div class="sticker">
+            <h1 class="title">Menu</h1>
+        </div>
+    </div>
+
+    <!-- Menu Container -->
+    <div class="container">
+
+        <div class="row">
+            <div class="col-2">
+                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link" id="v-pills-apps-tab" data-toggle="pill" href="#v-pills-apps" role="tab" aria-controls="v-pills-apps" aria-selected="false">Anthaipasto</a>
+                    <a class="nav-link active" id="v-pills-somtum-tab" data-toggle="pill" href="#v-pills-somtum" role="tab" aria-controls="v-pills-somtum" aria-selected="true">Somtum(bar)</a>
+                    <a class="nav-link" id="v-pills-pork-tab" data-toggle="pill" href="#v-pills-pork" role="tab" aria-controls="v-pills-pork" aria-selected="false">Pork</a>
+                    <a class="nav-link" id="v-pills-chicken-tab" data-toggle="pill" href="#v-pills-chicken" role="tab" aria-controls="v-pills-chicken" aria-selected="false">Chicken</a>
+                    <a class="nav-link" id="v-pills-beef-tab" data-toggle="pill" href="#v-pills-beef" role="tab" aria-controls="v-pills-beef" aria-selected="false">Beef</a>
+                    <a class="nav-link" id="v-pills-seafood-tab" data-toggle="pill" href="#v-pills-seafood" role="tab" aria-controls="v-pills-seafood" aria-selected="false">Seafood</a>
+                    <a class="nav-link" id="v-pills-fish-tab" data-toggle="pill" href="#v-pills-fish" role="tab" aria-controls="v-pills-fish" aria-selected="false">Fish</a>
+                    <a class="nav-link" id="v-pills-veggie-tab" data-toggle="pill" href="#v-pills-veggie" role="tab" aria-controls="v-pills-veggie" aria-selected="false">Veggie</a>
+                </div>
+            </div>
+            <div class="col-10">
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade" id="v-pills-apps" role="tabpanel" aria-labelledby="v-pills-apps-tab">
+                        <div class="jumbotron jumbotron-fluid">
+                            <div class="container">
+                                {% for item in site.apps limit:1 %}
+                                    <style>
+                                        /* Hero Image for Blog Posts */
+                                        .jumbotron {
+                                            background-image: url("{{ item.image }}");
+                                            height: 400px;
+                                            background-position: center;
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                                            margin-bottom: 0.5rem
+                                        }
+                                    </style>
+                                    <h1 class="display-4">{{ item.name }}</h1>
+                                    <h1 class="display-4">{{ item.thai_name }}</h6>
+                                    <p>{{ item.description }}</p>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        <div class="card-columns">
+                            {% for item in site.apps offset:1 %}
+                                <div class="col-sm">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h4 class="card-title">{{ item.name }}</h4>
+                                            <h6 class="card-subtitle mb-2 text-muted">{{ item.thai_name }}</h6>
+                                            <p class="card-text"><small class="text-muted">{{ item.description }}</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="tab-pane fade show active" id="v-pills-somtum" role="tabpanel" aria-labelledby="v-pills-somtum-tab">
+                        <div class="jumbotron jumbotron-fluid">
+                            <div class="container">
+                                {% for item in site.somtum limit:1 %}
+                                    <style>
+                                        /* Hero Image for Blog Posts */
+                                        .jumbotron {
+                                            background-image: url("{{ item.image }}");
+                                            height: 400px;
+                                            background-position: center;
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                                            margin-bottom: 0.5rem
+                                        }
+                                    </style>
+                                    <h1 class="display-4">{{ item.name }}</h1>
+                                    <h1 class="display-4">{{ item.thai_name }}</h6>
+                                    <p>{{ item.description }}</p>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        <div class="card-columns">
+                            {% for item in site.somtum offset:1 %}
+                                <div class="col-sm">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h4 class="card-title">{{ item.name }}</h4>
+                                            <h6 class="card-subtitle mb-2 text-muted">{{ item.thai_name }}</h6>
+                                            <p class="card-text"><small class="text-muted">{{ item.description }}</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-pork" role="tabpanel" aria-labelledby="v-pills-pork-tab">
+                        <div class="jumbotron jumbotron-fluid">
+                            <div class="container">
+                                {% for item in site.pork limit:1 %}
+                                    <style>
+                                        /* Hero Image for Blog Posts */
+                                        .jumbotron {
+                                            background-image: url("{{ item.image }}");
+                                            height: 400px;
+                                            background-position: center;
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                                            margin-bottom: 0.5rem
+                                        }
+                                    </style>
+                                    <h1 class="display-4">{{ item.name }}</h1>
+                                    <h1 class="display-4">{{ item.thai_name }}</h6>
+                                    <p>{{ item.description }}</p>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        <div class="card-columns">
+                            {% for item in site.pork offset:1 %}
+                                <div class="col-sm">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h4 class="card-title">{{ item.name }}</h4>
+                                            <h6 class="card-subtitle mb-2 text-muted">{{ item.thai_name }}</h6>
+                                            <p class="card-text"><small class="text-muted">{{ item.description }}</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-chicken" role="tabpanel" aria-labelledby="v-pills-chicken-tab">
+                        <div class="jumbotron jumbotron-fluid">
+                            <div class="container">
+                                {% for item in site.chicken limit:1 %}
+                                    <style>
+                                        /* Hero Image for Blog Posts */
+                                        .jumbotron {
+                                            background-image: url("{{ item.image }}");
+                                            height: 400px;
+                                            background-position: center;
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                                            margin-bottom: 0.5rem
+                                        }
+                                    </style>
+                                    <h1 class="display-4">{{ item.name }}</h1>
+                                    <h1 class="display-4">{{ item.thai_name }}</h6>
+                                    <p>{{ item.description }}</p>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        <div class="card-columns">
+                            {% for item in site.chicken offset:1 %}
+                                <div class="col-sm">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h4 class="card-title">{{ item.name }}</h4>
+                                            <h6 class="card-subtitle mb-2 text-muted">{{ item.thai_name }}</h6>
+                                            <p class="card-text"><small class="text-muted">{{ item.description }}</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-beef" role="tabpanel" aria-labelledby="v-pills-beef-tab">
+                        <div class="jumbotron jumbotron-fluid">
+                            <div class="container">
+                                {% for item in site.beef limit:1 %}
+                                    <style>
+                                        /* Hero Image for Blog Posts */
+                                        .jumbotron {
+                                            background-image: url("{{ item.image }}");
+                                            height: 400px;
+                                            background-position: center;
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                                            margin-bottom: 0.5rem
+                                        }
+                                    </style>
+                                    <h1 class="display-4">{{ item.name }}</h1>
+                                    <h1 class="display-4">{{ item.thai_name }}</h6>
+                                    <p>{{ item.description }}</p>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        <div class="card-columns">
+                            {% for item in site.beef offset:1 %}
+                                <div class="col-sm">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h4 class="card-title">{{ item.name }}</h4>
+                                            <h6 class="card-subtitle mb-2 text-muted">{{ item.thai_name }}</h6>
+                                            <p class="card-text"><small class="text-muted">{{ item.description }}</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-seafood" role="tabpanel" aria-labelledby="v-pills-seafood-tab">
+                        <div class="jumbotron jumbotron-fluid">
+                            <div class="container">
+                                {% for item in site.seafood limit:1 %}
+                                    <style>
+                                        /* Hero Image for Blog Posts */
+                                        .jumbotron {
+                                            background-image: url("{{ item.image }}");
+                                            height: 400px;
+                                            background-position: center;
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                                            margin-bottom: 0.5rem
+                                        }
+                                    </style>
+                                    <h1 class="display-4">{{ item.name }}</h1>
+                                    <h1 class="display-4">{{ item.thai_name }}</h6>
+                                    <p>{{ item.description }}</p>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        <div class="card-columns">
+                            {% for item in site.seafood offset:1 %}
+                                <div class="col-sm">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h4 class="card-title">{{ item.name }}</h4>
+                                            <h6 class="card-subtitle mb-2 text-muted">{{ item.thai_name }}</h6>
+                                            <p class="card-text"><small class="text-muted">{{ item.description }}</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-fish" role="tabpanel" aria-labelledby="v-pills-fish-tab">
+                        <div class="jumbotron jumbotron-fluid">
+                            <div class="container">
+                                {% for item in site.fish limit:1 %}
+                                    <style>
+                                        /* Hero Image for Blog Posts */
+                                        .jumbotron {
+                                            background-image: url("{{ item.image }}");
+                                            height: 400px;
+                                            background-position: center;
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                                            margin-bottom: 0.5rem
+                                        }
+                                    </style>
+                                    <h1 class="display-4">{{ item.name }}</h1>
+                                    <h1 class="display-4">{{ item.thai_name }}</h6>
+                                    <p>{{ item.description }}</p>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        <div class="card-columns">
+                            {% for item in site.fish offset:1 %}
+                                <div class="col-sm">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h4 class="card-title">{{ item.name }}</h4>
+                                            <h6 class="card-subtitle mb-2 text-muted">{{ item.thai_name }}</h6>
+                                            <p class="card-text"><small class="text-muted">{{ item.description }}</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-veggie" role="tabpanel" aria-labelledby="v-pills-veggie-tab">
+                        <div class="jumbotron jumbotron-fluid">
+                            <div class="container">
+                                {% for item in site.veggie limit:1 %}
+                                    <style>
+                                        /* Hero Image for Blog Posts */
+                                        .jumbotron {
+                                            background-image: url("{{ item.image }}");
+                                            height: 400px;
+                                            background-position: center;
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                                            margin-bottom: 0.5rem
+                                        }
+                                    </style>
+                                    <h1 class="display-4">{{ item.name }}</h1>
+                                    <h1 class="display-4">{{ item.thai_name }}</h6>
+                                    <p>{{ item.description }}</p>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        <div class="card-columns">
+                            {% for item in site.veggie offset:1 %}
+                                <div class="col-sm">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h4 class="card-title">{{ item.name }}</h4>
+                                            <h6 class="card-subtitle mb-2 text-muted">{{ item.thai_name }}</h6>
+                                            <p class="card-text"><small class="text-muted">{{ item.description }}</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>

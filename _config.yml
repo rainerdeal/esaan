@@ -3,7 +3,7 @@
 title: Esaan Tumbar
 description: Esaan Tumbar is a gourmet, Northeast-Thailand style restaurant in Mclean, Virginia.
 permalink: /:categories/:title
-url: https://esaantumbar.com #https://rickydeal.io
+url:
 
 sass:
   style: compressed # possible values: nested, expanded, compact, and compressed

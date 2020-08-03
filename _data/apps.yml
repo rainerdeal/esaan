@@ -1,0 +1,60 @@
+-
+  name: Chiangmai Sausage
+  thai_name: ไส้อั่ว
+  description: A grilled pork sausage with packed of herby, spicy, and curry flavor. A northern Thai original dish.
+  image: /images/food/apps/kai-kra-ta.jpeg
+  price: 10
+-
+  name: Grilled Squid
+  thai_name: null
+  description: Grilled whole squid serve with seafood sauce (Bangkok street food style).
+  image: /images/food/apps/grilled_squid.jpeg
+  price: null
+-
+  name: Crispy Fried Tofu
+  thai_name: เต้าหู้ทอดกรอบ
+  description: Fried tofu with sweet peanut sauce.
+  image: null
+  price: 8
+-
+  name: Crispy Pork Belly
+  thai_name: null
+  description: Fried Marinated pork belly serve with tamarind sauce.
+  image: null
+  price: null
+-
+  name: Kai-Kra-Ta
+  thai_name: ไข่กะทะ
+  description: 2 eggs sunny side up with two types of Thai pork sausage and minced pork.
+  image: null
+  price: 10
+-
+  name: Kai Tod Samoon Prai
+  thai_name: ปีกไก่ทอดสมุนไพร
+  description: Fried chicken wings marinated with lemongrass, lime leaf, and garlic.
+  image: null
+  price: 10
+-
+  name: Kuaytiew Luisuan
+  thai_name: ก๋วยเตี๋ยวลุยสวน
+  description: Rice paper wrapped with tofu, egg, fresh cabbages, cucumber, and lettuce.
+  image: null
+  price: 8
+-
+  name: Mieng Pla Too
+  thai_name: เมี่ยงปลาทู
+  description: Fied Mackerel served over lettuce, basil, noodle, lemongrass, ginger, lime, and red onion.
+  image: null
+  price: 10
+-
+  name: Moo Yor
+  thai_name: หมูยอ
+  description: Fried or steamed pork sausage.
+  image: null
+  price: 8
+-
+  name: Yum Kanom Jeen Pla Too
+  thai_name: ยำขนมจีนปลาทู
+  description: Vermicelli noodle, fried mackerel mixed with Thai herbs.
+  image: null
+  price: 13

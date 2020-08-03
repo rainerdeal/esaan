@@ -1,0 +1,42 @@
+-
+  name: Kao Mun Kai Tod (Lunch)
+  thai_name:
+  description: Steamed chicken rice with fried chicken. Comes with sweet sauce and served with radish soup.
+  image: null
+  price: 15
+-
+  name: Koa Na Moo Yang (Lunch)
+  thai_name:
+  description: Jasmine rice with grilled pork and spicy sauce on the side.
+  image: null
+  price: 15
+-
+  name: Ba Mee Na Moo Yang (Lunch)
+  thai_name:
+  description: Egg noodles with grilled pork and spicy sauce on the side.
+  image: null
+  price: 15
+-
+  name: Stewed Beef Noodles Soup
+  thai_name:
+  description: Beef Briskey Soup with Thai famous thin rice noodles.
+  image: null
+  price: 15
+-
+  name: Kao Soi
+  thai_name:
+  description: Northern Thai style egg noodle soup in coconut yellow curry and served with chicken drumstick.
+  image: null
+  price: 17
+-
+  name: Kao Kluk Ka Pi
+  thai_name:
+  description: Shrimp fried rice with sweet pork, omelet, pork sausage, green bean, red onion, mango, and chilis.
+  image: null
+  price: 17
+-
+  name: Massaman
+  thai_name:
+  description: Dark chicken meat in the massaman curry paste, chock-full of fragrant spiced potatoes, onion, and peanuts.
+  image: null
+  price: 17

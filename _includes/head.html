@@ -47,12 +47,12 @@
     {% endif %}
     {% if page.date %}
         <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
-        <meta content="{{ site.url }}/about/" property="article:author">
+        <meta content="{{ site.url }}/" property="article:author">
     {% endif %}
     {% if page.image %}
         <meta content="{{ page.image }}" property="og:image">
     {% else %}
-        <meta content="{{ site.url }}/images/pro.JPG" property="og:image">
+        <meta content="{{ site.url }}/esaan/images/main/essan-owner.jpg" property="og:image">
     {% endif %}
     {% if page.categories %}
         {% for category in page.categories limit:1 %}
@@ -85,7 +85,7 @@
     {% if page.image %}
         <meta name="twitter:image:src" content="{{ site.url }}{{ page.image }}">
     {% else %}
-        <meta name="twitter:image:src" content="{{ site.url }}/images/pro.JPG">
+        <meta name="twitter:image:src" content="{{ site.url }}/esaan/images/main/essan-owner.jpg">
     {% endif %}
 
     <!-- Bootstrap & CSS -->

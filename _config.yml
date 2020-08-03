@@ -12,34 +12,6 @@ sass:
 plugins:
   - jekyll-sitemap
 
-# Collections
-collections:
-  apps:
-    permalink: /:collection/:name
-    output: true
-  beef:
-    permalink: /:collection/:name
-    output: true
-  chicken:
-    permalink: /:collection/:name
-    output: true
-  fish:
-    permalink: /:collection/:name
-    output: true
-  pork:
-    permalink: /:collection/:name
-    output: true
-  seafood:
-    permalink: /:collection/:name
-    output: true
-  somtum:
-    permalink: /:collection/:name
-    output: true
-  veggie:
-    permalink: /:collection/:name
-    output: true
-collections_dir: _food
-
 # Defaults for different page types
 defaults:
   -

@@ -1,0 +1,36 @@
+-
+  name: Esaan Green
+  thai_name: อีสานเขียว
+  description: Vegetable of the Day with Esaan special sauce.
+  image: null
+  price: 13
+-
+  name: Kao-Soi Tofu
+  thai_name: ข้าวซอยเต้าหู้
+  description: Northern Thai style egg noodle soup in yellow coconut curry with fried tofu.
+  image: null
+  price: 16
+-
+  name: Thai Rich Tofu
+  thai_name: null
+  description: Fried soft tofu topped with brown sauce, fried garlic, and scallions.
+  image: null
+  price: null
+-
+  name: Larb Hed
+  thai_name: ลาบเห็ด
+  description: Spicy mushroom mixed with roasted rice and fresh Thai herbs.
+  image: null
+  price: 13
+-
+  name: Larb Tofu
+  thai_name: ลาบเต้าหู้
+  description: Spicy crispy fried tofu mixed with roasted rice and fresh Thai herbs.
+  image: null
+  price: 13
+-
+  name: Tom Zapp Hed
+  thai_name: ต้มแซ่บเห็ด
+  description: Spicy Esaan soup with mixed mushrooms, tomato, lemongrass, galangal, and onion.
+  image: null
+  price: 13

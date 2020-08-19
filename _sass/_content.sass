@@ -11,23 +11,27 @@ body
 .main
     flex: 1
     .card-body
-        text-align: center
+        text-align: left
         padding: 10px
+        .media
+            img
+                height: 100px
     .card-columns
-        text-align: center
         column-count: 2
         @include tablet
             column-count: 1
         @include mobile
             column-count: 1
     #order-online
-        img
-            height: 300px
         column-count: 3
         @include tablet
             column-count: 2
         @include mobile
             column-count: 1
+        img
+            height: 300px
+        .card-body
+            text-align: center
 
 .sticker-wrapper
     text-align: center
@@ -35,11 +39,11 @@ body
     .sticker
         display: inline-block
         .title
-            color: white
+            color: $accentColor
             text-align: center
-            font-style: italic
+            font-style: normal
             padding: 0px 10px 0px 10px
-            background-color: $accentColor
+            //background-color: white
 
 .nav
     margin-bottom: 10px

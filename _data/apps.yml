@@ -2,13 +2,13 @@
   name: Chiangmai Sausage
   thai_name: ไส้อั่ว
   description: A grilled pork sausage with packed of herby, spicy, and curry flavor. A northern Thai original dish.
-  image: /images/food/apps/kai-kra-ta.jpeg
+  image: images/food/apps/kai-kra-ta.jpeg
   price: 10
 -
   name: Grilled Squid
   thai_name: null
   description: Grilled whole squid serve with seafood sauce (Bangkok street food style).
-  image: /images/food/apps/grilled_squid.jpeg
+  image: images/food/apps/grilled_squid.jpeg
   price: null
 -
   name: Crispy Fried Tofu

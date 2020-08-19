@@ -1,0 +1,23 @@
+---
+layout: default
+title: Esaan Tumbar - Photos
+---
+<div class="container">
+
+    <div class="sticker-wrapper">
+        <div class="sticker">
+            <h1 class="title">Photos</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card-columns">
+            {% for item in site.data.gallery %}
+                <div class="card">
+                    <img src="{{ item.image }}" class="card-img-top">
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+</div>

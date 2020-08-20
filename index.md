@@ -1,7 +1,7 @@
 ---
 layout: about
 title: Esaan Tumbar - About
-youtube: https://www.youtube.com/watch?v=g6F03DckwoU&feature=youtu.be
+youtube: https://www.youtube-nocookie.com/embed/g6F03DckwoU
 ---
 
 Esaan is the north-eastern region of Thailand. It is home to Thailand's best national parks, most ancient temple, and it has a culture and food all its own. Family gatherings are a huge part of Esaan culture and food is always present. Sticky rice is a staple and an abundant form of energy in Esaan.

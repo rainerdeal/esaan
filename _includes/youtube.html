@@ -2,7 +2,8 @@
 .embed-container {
     position: relative;
     padding-bottom: 56.25%;
-    height: 0; overflow: hidden;
+    height: 0;
+    overflow: hidden;
     max-width: 100%;
 }
 .embed-container iframe,
@@ -17,5 +18,5 @@
 </style>
 
 <div class="embed-container">
-    <iframe src="{{ page.youtube }}" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="{{ page.youtube }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

@@ -5,18 +5,6 @@
   image: null
   price: 13
 -
-  name: Kao-Soi Tofu
-  thai_name: ข้าวซอยเต้าหู้
-  description: Northern Thai style egg noodle soup in yellow coconut curry with fried tofu.
-  image: null
-  price: 16
--
-  name: Thai Rich Tofu
-  thai_name: null
-  description: Fried soft tofu topped with brown sauce, fried garlic, and scallions.
-  image: null
-  price: null
--
   name: Larb Hed
   thai_name: ลาบเห็ด
   description: Spicy mushroom mixed with roasted rice and fresh Thai herbs.
@@ -34,3 +22,15 @@
   description: Spicy Esaan soup with mixed mushrooms, tomato, lemongrass, galangal, and onion.
   image: null
   price: 13
+-
+  name: Thai Rich Tofu
+  thai_name: เต้าหู้ทรงเครื่อง
+  description: Fried soft tofu topped with brown sauce, fried garlic, and scallions.
+  image: null
+  price: 14
+-
+  name: Kao-Soi Tofu
+  thai_name: ข้าวซอยเต้าหู้
+  description: Northern Thai style egg noodle soup in yellow coconut curry with fried tofu.
+  image: null
+  price: 16

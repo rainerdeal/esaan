@@ -1,10 +1,4 @@
 -
-  name: Kai Yang Esaan
-  thai_name: ไก่ย่างอีสาน
-  description: Esaan street style grilled Cornish Hen, comes with spicy sauce and sweet sauce.
-  image: null
-  price: 22
--
   name: Kao-Soi Kai
   thai_name: เขาซอยไก่
   description: Thai Northern Style egg noodle soup in yellow coconut curry with a chicken drumstick.
@@ -15,4 +9,10 @@
   thai_name: ยำไก่แซ่บ
   description: Fried chicken mixed with scallion, red onion, mint, cilantro, chili, and roasted rice.
   image: null
-  price: 18
+  price: 16
+-
+  name: Kai Yang Esaan
+  thai_name: ไก่ย่างอีสาน
+  description: Esaan street style grilled Cornish Hen, comes with spicy sauce and sweet sauce.
+  image: null
+  price: 22

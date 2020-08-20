@@ -1,60 +1,84 @@
 -
-  name: Yum Kai Zapp
-  thai_name: ยำไก่แซ่บ
-  description: Fried chicken mixed with scallion, red onion, mint, cilantro, chili, and roasted rice.
+  name: Kuaytiew Luisuan
+  thai_name: ก๋วยเตี๋ยวลุยสวน
+  description: Fresh vegetable roll with tofu, egg, cabbage, cucumber, and lettuce.
   image: null
-  price: 18
+  price: 8
 -
   name: Kai Tod Samoon Prai
   thai_name: ปีกไก่ทอดสมุนไพร
   description: Fried chicken wings marinated with lemongrass, lime leaf, and garlic.
   image: null
+  price: 9
+-
+  name: Chiangmai Sausage
+  thai_name: ไส้อั่ว
+  description: A grilled pork sausage with packed of herby, spicy, and curry flavor. A northern Thai original dish.
+  image: null #images/food/apps/kai-kra-ta.jpeg
   price: 10
 -
-  name: Kao-Soi
-  thai_name: null
-  description: Northern Thai style egg noodle soup in yellow coconut curry with a chicken drumstick or fried tofu.
+  name: Grilled Squid
+  thai_name: ปลาหมึกย่าง
+  description: Grilled whole squid serve with seafood sauce (Bangkok street food style).
+  image: null #images/food/apps/grilled_squid.jpeg
+  price: 15
+-
+  name: Crispy Pork Belly
+  thai_name: หมูสามชั้นทอดกรอบ
+  description: Fried Marinated pork belly serve with tamarind sauce.
   image: null
-  price: 17
+  price: 15
 -
   name: Somtum Thai
   thai_name: ส้มตำไทย
   description: Original Thai style spicy papaya salad with green beans, tomatoes, and peanuts.
-  image: /images/food/somtum/somtum_thai.jpeg
-  price: 11
+  image: null #images/food/somtum/somtum_thai.jpeg
+  price: 10
 -
-  name: Moo Nam Tok
-  thai_name: หมูนำ้ตก
-  description: Grilled pork shoulder mixed with scallion, red onion, mint, cilantro, chili, and roasted rice.
-  image: null
-  price: 20
--
-  name: Sticky Rice with Thai Custard
-  thai_name: null
-  description: null
-  image: null
-  price: 8
--
-  name: Larb Moo
-  thai_name: ลาบหมู
-  description: Spicy minced pork mixed with roasted rice and fresh Thai herbs.
+  name: Massaman
+  thai_name: มัสมั่นไก่
+  description: Dark chicken meat in the massaman curry paste, chock-full of fragrant spiced potatoes, onion, and peanuts.
   image: null
   price: 16
--
-  name: Kuaytiew Luisuan
-  thai_name: null
-  description: Fresh vegetable roll with tofu, egg, cabbage, cucumber, and lettuce.
-  image: null
-  price: 9
 -
   name: Crying Tiger
   thai_name: เนื้อย่าง
   description: Grilled marinated NY stip loin steak, comes with spicy Esaan sauce.
   image: null
-  price: 23
+  price: 22
+-
+  name: Moo Nam Tok
+  thai_name: หมูนำ้ตก
+  description: Grilled pork shoulder mixed with scallion, red onion, mint, cilantro, chili, and roasted rice.
+  image: null
+  price: 18
+-
+  name: Larb Moo
+  thai_name: ลาบหมู
+  description: Spicy minced pork mixed with roasted rice and fresh Thai herbs.
+  image: null
+  price: 15
+-
+  name: Kao Soi
+  thai_name: ข้าวซอยไก่
+  description: Northern Thai style egg noodle soup in yellow coconut curry with a chicken drumstick or fried tofu.
+  image: null
+  price: 16
 -
   name: Kor Moo Yang
   thai_name: คอหมูย่าง
   description: Grilled pork shoulder served with spicy tamarind sauce.
   image: null
-  price: 20
+  price: 18
+-
+  name: Yum Kai Zapp
+  thai_name: ยำไก่แซ่บ
+  description: Fried chicken mixed with scallion, red onion, mint, cilantro, chili, and roasted rice.
+  image: null
+  price: 16
+-
+  name: Sticky Rice with Thai Custard
+  thai_name: ข้าวเหนียวสังขยา
+  description: Sweet blue sticky rice with Thai custard.
+  image: null
+  price: 8

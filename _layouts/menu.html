@@ -25,27 +25,18 @@ title: Esaan Tumbar - Menu
             <a class="nav-link" id="v-pills-fish-tab" data-toggle="pill" href="#v-pills-fish" role="tab" aria-controls="v-pills-fish" aria-selected="false">Fish</a>
             <a class="nav-link" id="v-pills-veggie-tab" data-toggle="pill" href="#v-pills-veggie" role="tab" aria-controls="v-pills-veggie" aria-selected="false">Veggie</a>
             <a class="nav-link" id="v-pills-drinks-tab" data-toggle="pill" href="#v-pills-drinks" role="tab" aria-controls="v-pills-drinks" aria-selected="false">Drinks</a>
-            <a class="nav-link" id="v-pills-special-tab" data-toggle="pill" href="#v-pills-speical" role="tab" aria-controls="v-pills-special" aria-selected="false">Weekend Special</a>
+            <a class="nav-link" id="v-pills-special-tab" data-toggle="pill" href="#v-pills-special" role="tab" aria-controls="v-pills-special" aria-selected="false">⭐️Weekend Special⭐️</a>
         </div>
 
         <div class="tab-content" id="v-pills-tabContent">
             <div class="tab-pane fade" id="v-pills-popular" role="tabpanel" aria-labelledby="v-pills-popular-tab">
                 <div class="card-columns">
                     {% for item in site.data.popular %}
-                        <div class="card mb-3" style="max-width: 540px;">
-                            <div class="row no-gutters">
-                            {% if item.image %}
-                                <div class="col-md-4">
-                                    <img src="{{ item.image }}" class="card-img">
-                                </div>
-                            {% endif %}
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                <h5 class="card-title">{{ item.name }} ({{ item.price }})</h5>
-                                <p class="card-text">{{ item.thai_name }}</p>
-                                <p class="card-text"><small class="text-muted">{{ item.description }}</small></p>
-                                </div>
-                            </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ item.name }} - ({{ item.price }})</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">{{ item.thai_name }}</h6>
+                                <p class="card-text">{{ item.description }}</p>
                             </div>
                         </div>
                     {% endfor %}
@@ -54,20 +45,11 @@ title: Esaan Tumbar - Menu
             <div class="tab-pane fade" id="v-pills-apps" role="tabpanel" aria-labelledby="v-pills-apps-tab">
                 <div class="card-columns">
                     {% for item in site.data.apps %}
-                        <div class="card mb-3" style="max-width: 540px;">
-                            <div class="row no-gutters">
-                            {% if item.image %}
-                                <div class="col-md-4">
-                                    <img src="{{ item.image }}" class="card-img">
-                                </div>
-                            {% endif %}
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                <h5 class="card-title">{{ item.name }} ({{ item.price }})</h5>
-                                <p class="card-text">{{ item.thai_name }}</p>
-                                <p class="card-text"><small class="text-muted">{{ item.description }}</small></p>
-                                </div>
-                            </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ item.name }} - ({{ item.price }})</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">{{ item.thai_name }}</h6>
+                                <p class="card-text">{{ item.description }}</p>
                             </div>
                         </div>
                     {% endfor %}
@@ -76,20 +58,11 @@ title: Esaan Tumbar - Menu
             <div class="tab-pane fade show active" id="v-pills-somtum" role="tabpanel" aria-labelledby="v-pills-somtum-tab">
                 <div class="card-columns">
                     {% for item in site.data.somtum %}
-                        <div class="card mb-3" style="max-width: 540px;">
-                            <div class="row no-gutters">
-                            {% if item.image %}
-                                <div class="col-md-4">
-                                    <img src="{{ item.image }}" class="card-img">
-                                </div>
-                            {% endif %}
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                <h5 class="card-title">{{ item.name }} ({{ item.price }})</h5>
-                                <p class="card-text">{{ item.thai_name }}</p>
-                                <p class="card-text"><small class="text-muted">{{ item.description }}</small></p>
-                                </div>
-                            </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ item.name }} - ({{ item.price }})</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">{{ item.thai_name }}</h6>
+                                <p class="card-text">{{ item.description }}</p>
                             </div>
                         </div>
                     {% endfor %}
@@ -98,20 +71,11 @@ title: Esaan Tumbar - Menu
             <div class="tab-pane fade" id="v-pills-rice-and-noodles" role="tabpanel" aria-labelledby="v-pills-rice-and-noodles-tab">
                 <div class="card-columns">
                     {% for item in site.data.rice_and_noodles %}
-                        <div class="card mb-3" style="max-width: 540px;">
-                            <div class="row no-gutters">
-                            {% if item.image %}
-                                <div class="col-md-4">
-                                    <img src="{{ item.image }}" class="card-img">
-                                </div>
-                            {% endif %}
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                <h5 class="card-title">{{ item.name }} ({{ item.price }})</h5>
-                                <p class="card-text">{{ item.thai_name }}</p>
-                                <p class="card-text"><small class="text-muted">{{ item.description }}</small></p>
-                                </div>
-                            </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ item.name }} - ({{ item.price }})</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">{{ item.thai_name }}</h6>
+                                <p class="card-text">{{ item.description }}</p>
                             </div>
                         </div>
                     {% endfor %}
@@ -120,20 +84,11 @@ title: Esaan Tumbar - Menu
             <div class="tab-pane fade" id="v-pills-pork" role="tabpanel" aria-labelledby="v-pills-pork-tab">
                 <div class="card-columns">
                     {% for item in site.data.pork %}
-                        <div class="card mb-3" style="max-width: 540px;">
-                            <div class="row no-gutters">
-                            {% if item.image %}
-                                <div class="col-md-4">
-                                    <img src="{{ item.image }}" class="card-img">
-                                </div>
-                            {% endif %}
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                <h5 class="card-title">{{ item.name }} ({{ item.price }})</h5>
-                                <p class="card-text">{{ item.thai_name }}</p>
-                                <p class="card-text"><small class="text-muted">{{ item.description }}</small></p>
-                                </div>
-                            </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ item.name }} - ({{ item.price }})</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">{{ item.thai_name }}</h6>
+                                <p class="card-text">{{ item.description }}</p>
                             </div>
                         </div>
                     {% endfor %}
@@ -142,20 +97,11 @@ title: Esaan Tumbar - Menu
             <div class="tab-pane fade" id="v-pills-chicken" role="tabpanel" aria-labelledby="v-pills-chicken-tab">
                 <div class="card-columns">
                     {% for item in site.data.chicken %}
-                        <div class="card mb-3" style="max-width: 540px;">
-                            <div class="row no-gutters">
-                            {% if item.image %}
-                                <div class="col-md-4">
-                                    <img src="{{ item.image }}" class="card-img">
-                                </div>
-                            {% endif %}
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                <h5 class="card-title">{{ item.name }} ({{ item.price }})</h5>
-                                <p class="card-text">{{ item.thai_name }}</p>
-                                <p class="card-text"><small class="text-muted">{{ item.description }}</small></p>
-                                </div>
-                            </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ item.name }} - ({{ item.price }})</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">{{ item.thai_name }}</h6>
+                                <p class="card-text">{{ item.description }}</p>
                             </div>
                         </div>
                     {% endfor %}
@@ -164,20 +110,11 @@ title: Esaan Tumbar - Menu
             <div class="tab-pane fade" id="v-pills-beef" role="tabpanel" aria-labelledby="v-pills-beef-tab">
                 <div class="card-columns">
                     {% for item in site.data.beef %}
-                        <div class="card mb-3" style="max-width: 540px;">
-                            <div class="row no-gutters">
-                            {% if item.image %}
-                                <div class="col-md-4">
-                                    <img src="{{ item.image }}" class="card-img">
-                                </div>
-                            {% endif %}
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                <h5 class="card-title">{{ item.name }} ({{ item.price }})</h5>
-                                <p class="card-text">{{ item.thai_name }}</p>
-                                <p class="card-text"><small class="text-muted">{{ item.description }}</small></p>
-                                </div>
-                            </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ item.name }} - ({{ item.price }})</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">{{ item.thai_name }}</h6>
+                                <p class="card-text">{{ item.description }}</p>
                             </div>
                         </div>
                     {% endfor %}
@@ -186,20 +123,11 @@ title: Esaan Tumbar - Menu
             <div class="tab-pane fade" id="v-pills-seafood" role="tabpanel" aria-labelledby="v-pills-seafood-tab">
                 <div class="card-columns">
                     {% for item in site.data.seafood %}
-                        <div class="card mb-3" style="max-width: 540px;">
-                            <div class="row no-gutters">
-                            {% if item.image %}
-                                <div class="col-md-4">
-                                    <img src="{{ item.image }}" class="card-img">
-                                </div>
-                            {% endif %}
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                <h5 class="card-title">{{ item.name }} ({{ item.price }})</h5>
-                                <p class="card-text">{{ item.thai_name }}</p>
-                                <p class="card-text"><small class="text-muted">{{ item.description }}</small></p>
-                                </div>
-                            </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ item.name }} - ({{ item.price }})</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">{{ item.thai_name }}</h6>
+                                <p class="card-text">{{ item.description }}</p>
                             </div>
                         </div>
                     {% endfor %}
@@ -208,20 +136,11 @@ title: Esaan Tumbar - Menu
             <div class="tab-pane fade" id="v-pills-fish" role="tabpanel" aria-labelledby="v-pills-fish-tab">
                 <div class="card-columns">
                     {% for item in site.data.fish %}
-                        <div class="card mb-3" style="max-width: 540px;">
-                            <div class="row no-gutters">
-                            {% if item.image %}
-                                <div class="col-md-4">
-                                    <img src="{{ item.image }}" class="card-img">
-                                </div>
-                            {% endif %}
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                <h5 class="card-title">{{ item.name }} ({{ item.price }})</h5>
-                                <p class="card-text">{{ item.thai_name }}</p>
-                                <p class="card-text"><small class="text-muted">{{ item.description }}</small></p>
-                                </div>
-                            </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ item.name }} - ({{ item.price }})</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">{{ item.thai_name }}</h6>
+                                <p class="card-text">{{ item.description }}</p>
                             </div>
                         </div>
                     {% endfor %}
@@ -230,20 +149,11 @@ title: Esaan Tumbar - Menu
             <div class="tab-pane fade" id="v-pills-veggie" role="tabpanel" aria-labelledby="v-pills-veggie-tab">
                 <div class="card-columns">
                     {% for item in site.data.veggie %}
-                        <div class="card mb-3" style="max-width: 540px;">
-                            <div class="row no-gutters">
-                            {% if item.image %}
-                                <div class="col-md-4">
-                                    <img src="{{ item.image }}" class="card-img">
-                                </div>
-                            {% endif %}
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                <h5 class="card-title">{{ item.name }} ({{ item.price }})</h5>
-                                <p class="card-text">{{ item.thai_name }}</p>
-                                <p class="card-text"><small class="text-muted">{{ item.description }}</small></p>
-                                </div>
-                            </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ item.name }} - ({{ item.price }})</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">{{ item.thai_name }}</h6>
+                                <p class="card-text">{{ item.description }}</p>
                             </div>
                         </div>
                     {% endfor %}
@@ -252,40 +162,23 @@ title: Esaan Tumbar - Menu
             <div class="tab-pane fade" id="v-pills-drinks" role="tabpanel" aria-labelledby="v-pills-drinks-tab">
                 <div class="card-columns">
                     {% for item in site.data.drinks %}
-                        <div class="card mb-3" style="max-width: 540px;">
-                            <div class="row no-gutters">
-                            {% if item.image %}
-                                <div class="col-md-4">
-                                    <img src="{{ item.image }}" class="card-img">
-                                </div>
-                            {% endif %}
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                <h5 class="card-title">{{ item.name }} ({{ item.price }})</h5>
-                                <p class="card-text">{{ item.thai_name }}</p>
-                                <p class="card-text"><small class="text-muted">{{ item.description }}</small></p>
-                                </div>
-                            </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ item.name }} - ({{ item.price }})</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">{{ item.thai_name }}</h6>
+                                <p class="card-text">{{ item.description }}</p>
                             </div>
                         </div>
                     {% endfor %}
                 </div>
             </div>
             <div class="tab-pane fade" id="v-pills-special" role="tabpanel" aria-labelledby="v-pills-special-tab">
-                <div class="card-columns">
-                    {% for item in site.data.special %}
-                        <div class="card mb-3" style="max-width: 540px;">
-                            <div class="row no-gutters">
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                <h5 class="card-title">{{ item.name }}</h5>
-                                <p class="card-text">{{ item.thai_name }}</p>
-                                <p class="card-text"><small class="text-muted">{{ item.description }}</small></p>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                    {% endfor %}
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Weekend Special</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">(703) 288-3901</h6>
+                        <p class="card-text">Each weekend we serve different Bangkok street foods. Call and talk to our service team to find out what we will be serving!</p>
+                    </div>
                 </div>
             </div>
         </div>

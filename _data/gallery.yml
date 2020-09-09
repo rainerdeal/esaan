@@ -1,29 +1,29 @@
 -
-  name: One
+  name: Tom Yum Noodle Soup
   image: images/esaan_gallery/image0.jpeg
 -
-  name: Two
+  name: Soft-shell Crab
   image: images/esaan_gallery/image0-2.jpeg
 -
-  name: Three
+  name: Kai Tod Samoon Prai
   image: images/esaan_gallery/image1.jpeg
 -
-  name: Four
+  name: Kao Mun Kai Tod
   image: images/esaan_gallery/image1-2.jpeg
 -
-  name: Five
+  name: Grilled Squid
   image: images/esaan_gallery/image2.jpeg
 -
-  name: Six
+  name: Mieng Pla Too
   image: images/esaan_gallery/image2-2.jpeg
 -
-  name: Seven
+  name: Crispy Pork Belly
   image: images/esaan_gallery/image3.jpeg
 -
-  name: Eight
+  name: Kao Soi
   image: images/esaan_gallery/image4.jpeg
 -
-  name: Nine
+  name: Grilled Soft-shell Crab
   image: images/esaan_gallery/image5.jpeg
 -
   name: Crying Tiger

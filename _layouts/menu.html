@@ -28,6 +28,7 @@ layout: default
             <a class="nav-link" id="v-pills-seafood-tab" data-toggle="pill" href="#v-pills-seafood" role="tab" aria-controls="v-pills-seafood" aria-selected="false"><img src="images/icons/icons8-prawn-100.png" style="height:1.25rem;"></a>
             <a class="nav-link" id="v-pills-fish-tab" data-toggle="pill" href="#v-pills-fish" role="tab" aria-controls="v-pills-fish" aria-selected="false"><img src="images/icons/icons8-bream-100.png" style="height:1.25rem;"></a>
             <a class="nav-link" id="v-pills-veggie-tab" data-toggle="pill" href="#v-pills-veggie" role="tab" aria-controls="v-pills-veggie" aria-selected="false"><img src="images/icons/icons8-carrot-100.png" style="height:1.25rem;"></a>
+            <a class="nav-link" id="v-pills-dessert-tab" data-toggle="pill" href="#v-pills-dessert" role="tab" aria-controls="v-pills-dessert" aria-selected="false"><img src="images/icons/icons8-banana-split-100.png" style="height:1.25rem;"></a>
             <a class="nav-link" id="v-pills-drinks-tab" data-toggle="pill" href="#v-pills-drinks" role="tab" aria-controls="v-pills-drinks" aria-selected="false"><img src="images/icons/icons8-coconut-cocktail-100.png" style="height:1.25rem;"></a>
             <a class="nav-link" id="v-pills-special-tab" data-toggle="pill" href="#v-pills-special" role="tab" aria-controls="v-pills-special" aria-selected="false">Weekend Special</a>
         </div>
@@ -153,6 +154,19 @@ layout: default
             <div class="tab-pane fade" id="v-pills-veggie" role="tabpanel" aria-labelledby="v-pills-veggie-tab">
                 <div class="card-columns">
                     {% for item in site.data.veggie %}
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ item.name }} - ({{ item.price }})</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">{{ item.thai_name }}</h6>
+                                <p class="card-text">{{ item.description }}</p>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="tab-pane fade" id="v-pills-dessert" role="tabpanel" aria-labelledby="v-pills-dessert-tab">
+                <div class="card-columns">
+                    {% for item in site.data.dessert %}
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title">{{ item.name }} - ({{ item.price }})</h5>

@@ -2,17 +2,14 @@
   name: Salmon Nam Tok
   thai_name: ปลาแซลมอลนำ้ตก
   description: Deep-fried crispy salmon with Nam-Tok sauce and fresh Thai herbs.
-  image: null
   price: 21
 -
   name: Pla Pao Branzino Bass
   thai_name: ปลาเผาเกลือ
   description: Salted baked branzino bass, comes with fresh vegetables vermicelli noodle and spicy dipping sauce on the side.
-  image: null
   price: 45
 -
   name: Pla Tod Samun Prai Rock Fish
   thai_name: ปลาทอดสมุนไพร
   description: Fried rock fish, topped with Thai herbs and cashew nuts. Finished with refreshing lime sauce.
-  image: null
   price: 45

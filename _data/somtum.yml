@@ -2,29 +2,24 @@
   name: Somtum Kao Poad Kai Kem
   thai_name: ส้มตำข้าวโพดไข่เค็ม
   description: Esaan spicy corn salad with salted eggs, green beans, and cherry tomatoes.
-  image: null #images/food/somtum/somtum_kao_piaf_kai_kem.jpeg
   price: 10
 -
   name: Somtum Plara
   thai_name: ส้มตำปลาร้า
   description: Classic Esaan papaya salad with fermented fish sauce and Thai eggplant.
-  image: null #images/food/somtum/somtum_plara.jpeg
   price: 10
 -
   name: Somtum Thai
   thai_name: ส้มตำไทย
   description: Original Thai style spicy papaya salad with green beans, tomatoes, and peanuts.
-  image: null #images/food/somtum/somtum_thai.jpeg
   price: 10
 -
   name: Somtum Muor
   thai_name: สัมตำมั่ว
   description: Esaan style papaya salad mixed with fermented fish sauce, noodles, Thai eggplants, pickles, cabbages, green beans, pork sausage, and pork skin chip.
-  image: null #images/food/somtum/somtum_muor.jpeg
   price: 12
 -
   name: Somtum Kaikem
   thai_name: ส้มตำไข่เค็ม
   description: Thai papaya salad with salted egg greens, tomatoes, and peanuts.
-  image: null
   price: 12

@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Esaan Tumbar - About
+title: ESAAN Tumbar
 youtube: https://www.youtube-nocookie.com/embed/g6F03DckwoU
 ---
 

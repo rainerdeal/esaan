@@ -1,8 +1,16 @@
 
 # Top level defaults
-title: Esaan Tumbar
+title: ESAAN Tumbar
 description: Esaan Tumbar is a gourmet, Northeast-Thailand style restaurant in Mclean, Virginia.
 permalink: /:categories/:title
+street_address: 1307 Old Chain Bridge Rd
+locality: McLean
+region: VA
+postal_code: 22101
+country_name: United States
+email: esaantumbar@gmail.com
+phone_number_1: (703)288-3901
+phone_number_2: (703)288-9671
 
 sass:
   style: compressed # possible values: nested, expanded, compact, and compressed

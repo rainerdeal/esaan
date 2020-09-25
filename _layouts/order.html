@@ -9,6 +9,26 @@ layout: default
         </div>
     </div>
 
+    <!-- Featured -->
+    <div class="jumbotron jombotron-fluid">
+        <div class="container">
+            <style>
+                /* Hero Image */
+                .jumbotron {
+                    background-image: url("images/main/esaan_color.jpeg");
+                    height: 400px;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    margin-bottom: 0.5rem
+                }
+            </style>
+            <h1 class="display-4">Order directly from us!</h1>
+            <script src="https://www.fbgcdn.com/embedder/js/ewm2.js" defer async></script>
+            <a class="btn btn-dark btn-lg" data-glf-cuid="e80eba53-d6cd-499a-966d-e5fab212a558" data-glf-ruid="3bba37cd-89eb-4828-b982-bf1a848625d5" style="color:white !important">Order</a>
+        </div>
+    </div>
+
     <center>{{ content }}</center>
 
     <div class="card-columns" id="order-online">
@@ -16,10 +36,10 @@ layout: default
             <div class="col">
                 <div class="card">
                     <img class="card-img-top" src="{{ item.image }}">
-                    <div class="card-body">
+                    <!-- <div class="card-body">
                         <h4 class="card-title">{{ item.name }}</h4>
                         <a href="{{ item.link }}" class="btn btn-dark">Order!</a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         {% endfor %}

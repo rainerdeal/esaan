@@ -19,6 +19,11 @@
   description: Beef Briskey Soup with Thai famous thin rice noodles.
   price: 13
 -
+  name: Esaan Pad Thai (Pad Mee Korat)
+  thai_name: ผัดหมี่โคราช
+  description: Stir fried rice noodles with bean sprouts and chives mixed with tamarind sauce. Topped with fried garlic. Can be served with tofu (15), chicken (16), or shrimp (18).
+  price: 15-18
+-
   name: Kao Soi
   thai_name:  ข้าวซอยไก่
   description: Northern Thai style egg noodle soup in coconut yellow curry and served with chicken drumstick.

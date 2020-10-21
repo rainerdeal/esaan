@@ -24,6 +24,11 @@
   description: Fried soft tofu topped with brown sauce, fried garlic, ginger, and scallions.
   price: 14
 -
+  name: Esaan Pad Thai Tofu (Pad Mee Korat)
+  thai_name: ผัดหมี่โคราช
+  description: Stir fried rice noodles with bean sprouts and chives mixed with tamarind sauce. Topped with fried garlic.
+  price: 15
+-
   name: Kao-Soi Tofu
   thai_name: ข้าวซอยเต้าหู้
   description: Northern Thai style egg noodle soup in yellow coconut curry with fried tofu.

@@ -1,78 +1,104 @@
 -
   name: Tom Yum Noodle Soup
-  image: images/esaan_gallery/image0.jpeg
+  image: images/esaan_gallery/tom_yum_noodle_soup.jpeg
+  alt-text: "Tom Yum Noodle Soup on a wooden table."
 -
   name: Soft-shell Crab
-  image: images/esaan_gallery/image0-2.jpeg
+  image: images/esaan_gallery/soft-shell_crab.jpeg
+  alt-text: "A server holding a plate of soft-shell crab."
 -
   name: Kai Tod Samoon Prai
-  image: images/esaan_gallery/image1.jpeg
+  image: images/esaan_gallery/kai_tod_samoon_prai.jpeg
+  alt-text: "Kai Tod Samoon Prai close-up."
 -
   name: Kao Mun Kai Tod
-  image: images/esaan_gallery/image1-2.jpeg
+  image: images/esaan_gallery/kao_mun_kai_tod_2.jpeg
+  alt-text: "A server holding a plate of Kao Mun Kai Tod."
 -
   name: Grilled Squid
-  image: images/esaan_gallery/image2.jpeg
+  image: images/esaan_gallery/grilled_squid.jpeg
+  alt-text: "A server holding a plate of Grilled Squid on a bed of lettuce."
 -
   name: Mieng Pla Too
-  image: images/esaan_gallery/image2-2.jpeg
+  image: images/esaan_gallery/mieng_pla_too.jpeg
+  alt-text: "A server holding a plate of Mieng Pla Too on a bed of lettuce and with dipping sauce."
 -
   name: Crispy Pork Belly
-  image: images/esaan_gallery/image3.jpeg
+  image: images/esaan_gallery/crispy_pork_belly.jpeg
+  alt-text: "A server holding a plate of Crispy Pork Belly with lettuce, tomato, cucumber, and dipping sauce."
 -
   name: Kao Soi
-  image: images/esaan_gallery/image4.jpeg
+  image: images/esaan_gallery/kao_soi.jpeg
+  alt-text: "A server holding a bowl of Kao Soi with chicken."
 -
   name: Grilled Soft-shell Crab
-  image: images/esaan_gallery/image5.jpeg
+  image: images/esaan_gallery/grilled_soft-shell_crab.jpeg
+  alt-text: "A plate of grilled soft-shell crab on a bed of lettuce with red onions, tomato, and drizzled in sauce."
 -
   name: Crying Tiger
   image: images/esaan_gallery/crying_tiger.jpg
+  alt-text: "Crying Tiger close up."
 -
   name: Crying Tiger
   image: images/esaan_gallery/crying_tiger_2.jpg
+  alt-text: "Crying Tiger close up."
 -
   name: Kao Kluk Ka Pi
   image: images/esaan_gallery/kao_kluk_ka_pi.jpg
+  alt-text: "Overhead shot of Kao Kluk Ka Pi on a table."
 -
   name: Kao Mun Kai Tod
   image: images/esaan_gallery/kao_mun_kai_tod.jpeg
+  alt-text: "Overhead shot of Kao Mun Kai Tod."
 -
   name: Kor Moo Yang
   image: images/esaan_gallery/kor_moo_yang.jpg
+  alt-text: "Kor Moo Yang served with grilled tomato, lemon, and cilantro."
 -
   name: Larb Hed
   image: images/esaan_gallery/larb_hed.jpg
+  alt-text: "Close up shot of Larb Hed salad."
 -
   name: Moo Nam Tok
   image: images/esaan_gallery/moo_nam_tok.jpg
+  alt-text: "Close up shot of Moo Nam Tok salad."
 -
   name: Nam Tok Nue
   image: images/esaan_gallery/nam_tok_nue.jpg
+  alt-text: "Close up shot of Nam Tok Nue salad."
 -
   name: Pla Koong
   image: images/esaan_gallery/pla_koong.jpg
+  alt-text: "Close up of Pla Koong salad with shrimp."
 -
   name: Pla Pao
   image: images/esaan_gallery/pla_pao.jpg
+  alt-text: "Grilled fish of the day with an assortment of grilled vegetables and several dipping sauces."
 -
   name: Pla Tod Samun Prai
   image: images/esaan_gallery/pla_tod_samun_prai.jpg
+  alt-text: "Grilled fish served with lettuce, cashews, red onions, and cilantro."
 -
   name: Shrimp Cracker
   image: images/esaan_gallery/shrimp_cracker.jpg
+  alt-text: "Close up of shrimp cracker appetizer with a dipping sauce."
 -
   name: Somtum Muor
   image: images/esaan_gallery/somtum_muor.jpg
+  alt-text: "Close up of Somtum Muor papaya salad."
 -
   name: Somtum Plara
   image: images/esaan_gallery/somtum_plara.jpg
+  alt-text: "Close up of Somtum Plara papaya salad."
 -
   name: Sticky Rice
   image: images/esaan_gallery/sticky_rice.jpeg
+  alt-text: "Close up of purple Sticky Rice in a serving basket."
 -
   name: Tom Zapp Hed
   image: images/esaan_gallery/tom_zapp_hed.jpg
+  alt-text: "Close up of Tom Zapp Hed soup."
 -
   name: Tom Zapp Moo
   image: images/esaan_gallery/tom_zapp_moo.jpg
+  alt-text: "Close up of Tom Zapp Moo soup."

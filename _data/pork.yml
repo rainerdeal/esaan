@@ -2,7 +2,7 @@
   name: Larb Moo
   thai_name: ลาบหมู
   description: Spicy minced pork mixed with roasted rice and fresh Thai herbs.
-  price: 15
+  price: 16
 -
   name: Tom Zapp Moo
   thai_name: ต้มแซ่บหมู
@@ -12,7 +12,7 @@
   name: Yum Moo Yor
   thai_name: ยำหมูยอ
   description: Pork sausage mixed with tomato, red onion, scallion, cilantro, lime and fresh chili.
-  price: 15
+  price: 16
 -
   name: Moo Nam Tok
   thai_name: หมูนำ้ตก

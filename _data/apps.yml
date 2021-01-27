@@ -12,7 +12,7 @@
   name: Moo Yor
   thai_name: หมูยอ
   description: Fried or steamed pork sausage.
-  price: 9
+  price: 10
 -
   name: Kai-Kra-Ta
   thai_name: ไข่กะทะ
@@ -27,12 +27,12 @@
   name: Crispy Pork Belly
   thai_name: หมูสามชั้นทอดกรอบ
   description: Fried Marinated pork belly serve with tamarind sauce.
-  price: 15
+  price: 18
 -
   name: Kuaytiew Luisuan
   thai_name: ก๋วยเตี๋ยวลุยสวน
   description: Rice paper wrapped with tofu, egg, fresh cabbages, cucumber, and lettuce.
-  price: 8
+  price: 9
 -
   name: Chiangmai Sausage
   thai_name: ไส้อั่ว
@@ -47,9 +47,9 @@
   name: Yum Kanom Jeen Pla Too
   thai_name: ยำขนมจีนปลาทู
   description: Vermicelli noodle, fried mackerel mixed with Thai herbs.
-  price: 13
+  price: 15
 -
   name: Grilled Squid
   thai_name: ปลาหมึกย่าง
   description: Grilled whole squid serve with seafood sauce (Bangkok street food style).
-  price: 15
+  price: 16

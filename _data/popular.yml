@@ -7,12 +7,12 @@
   name: Kuaytiew Luisuan
   thai_name: ก๋วยเตี๋ยวลุยสวน
   description: Fresh vegetable roll with tofu, egg, cabbage, cucumber, and lettuce.
-  price: 8
+  price: 9
 -
   name: Kai Tod Samoon Prai
   thai_name: ปีกไก่ทอดสมุนไพร
   description: Fried chicken wings marinated with lemongrass, lime leaf, and garlic.
-  price: 9
+  price: 10
 -
   name: Chiangmai Sausage
   thai_name: ไส้อั่ว
@@ -27,12 +27,12 @@
   name: Grilled Squid
   thai_name: ปลาหมึกย่าง
   description: Grilled whole squid serve with seafood sauce (Bangkok street food style).
-  price: 15
+  price: 16
 -
   name: Crispy Pork Belly
   thai_name: หมูสามชั้นทอดกรอบ
   description: Fried Marinated pork belly serve with tamarind sauce.
-  price: 15
+  price: 18
 -
   name: Somtum Thai
   thai_name: ส้มตำไทย
@@ -57,7 +57,7 @@
   name: Larb Moo
   thai_name: ลาบหมู
   description: Spicy minced pork mixed with roasted rice and fresh Thai herbs.
-  price: 15
+  price: 16
 -
   name: Kao Soi
   thai_name: ข้าวซอยไก่
@@ -72,7 +72,7 @@
   name: Yum Kai Zapp
   thai_name: ยำไก่แซ่บ
   description: Fried chicken mixed with scallion, red onion, mint, cilantro, chili, and roasted rice.
-  price: 16
+  price: 18
 -
   name: Sticky Rice with Thai Custard
   thai_name: ข้าวเหนียวสังขยา

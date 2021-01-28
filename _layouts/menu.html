@@ -25,9 +25,10 @@ layout: default
     <div class="container">
 
         <div class="nav nav-pills nav-fill" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <a class="nav-link active" id="v-pills-winter-tab" data-toggle="pill" href="#v-pills-winter" role="tab" aria-controls="v-pills-winter" aria-selected="true">Winter Special</a>
             <a class="nav-link" id="v-pills-popular-tab" data-toggle="pill" href="#v-pills-popular" role="tab" aria-controls="v-pills-popular" aria-selected="false">Popular</a>
             <a class="nav-link" id="v-pills-apps-tab" data-toggle="pill" href="#v-pills-apps" role="tab" aria-controls="v-pills-apps" aria-selected="false">Anthaipasto</a>
-            <a class="nav-link active" id="v-pills-somtum-tab" data-toggle="pill" href="#v-pills-somtum" role="tab" aria-controls="v-pills-somtum" aria-selected="true"><img src="images/icons/icons8-mortar-and-pestle-100.png" style="height:1.25rem;"></a>
+            <a class="nav-link" id="v-pills-somtum-tab" data-toggle="pill" href="#v-pills-somtum" role="tab" aria-controls="v-pills-somtum" aria-selected="false"><img src="images/icons/icons8-mortar-and-pestle-100.png" style="height:1.25rem;"></a>
             <a class="nav-link" id="v-pills-rice-and-noodles-tab" data-toggle="pill" href="#v-pills-rice-and-noodles" role="tab" aria-controls="v-pills-rice-and-noodles" aria-selected="false"><img src="images/icons/icons8-rice-bowl-100.png" style="height:1.25rem;"></a>
             <a class="nav-link" id="v-pills-pork-tab" data-toggle="pill" href="#v-pills-pork" role="tab" aria-controls="v-pills-pork" aria-selected="false"><img src="images/icons/icons8-pig-100.png" style="height:1.25rem;"></a>
             <a class="nav-link" id="v-pills-chicken-tab" data-toggle="pill" href="#v-pills-chicken" role="tab" aria-controls="v-pills-chicken" aria-selected="false"><img src="images/icons/icons8-chicken-100.png" style="height:1.25rem;"></a>
@@ -42,6 +43,19 @@ layout: default
         </div>
 
         <div class="tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="v-pills-winter" role="tabpanel" aria-labelledby="v-pills-winter-tab">
+                <div class="card-columns">
+                    {% for item in site.data.special %}
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ item.name }} - ({{ item.price }})</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">{{ item.thai_name }}</h6>
+                                <p class="card-text">{{ item.description }}</p>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
             <div class="tab-pane fade" id="v-pills-popular" role="tabpanel" aria-labelledby="v-pills-popular-tab">
                 <div class="card-columns">
                     {% for item in site.data.popular %}
@@ -68,7 +82,7 @@ layout: default
                     {% endfor %}
                 </div>
             </div>
-            <div class="tab-pane fade show active" id="v-pills-somtum" role="tabpanel" aria-labelledby="v-pills-somtum-tab">
+            <div class="tab-pane fade" id="v-pills-somtum" role="tabpanel" aria-labelledby="v-pills-somtum-tab">
                 <div class="card-columns">
                     {% for item in site.data.somtum %}
                         <div class="card">

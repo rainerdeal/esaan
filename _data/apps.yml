@@ -1,4 +1,9 @@
 -
+  name: Soft Shell Crab
+  thai_name: ปูนิ่มทอด
+  description: Fried Soft Shell crab in a chili and basil sauce.
+  price: 18
+-
   name: Esaan Crispy Spring Roll
   thai_name: ปอเปี้ยะทอด
   description: Crispy spring roll with carrot, vermicelli, and onion.
@@ -26,7 +31,7 @@
 -
   name: Crispy Pork Belly
   thai_name: หมูสามชั้นทอดกรอบ
-  description: Fried Marinated pork belly serve with tamarind sauce.
+  description: Fried Marinated pork belly served with tamarind sauce.
   price: 18
 -
   name: Kuaytiew Luisuan
@@ -51,5 +56,5 @@
 -
   name: Grilled Squid
   thai_name: ปลาหมึกย่าง
-  description: Grilled whole squid serve with seafood sauce (Bangkok street food style).
+  description: Grilled whole squid served with seafood sauce (Bangkok street food style).
   price: 16

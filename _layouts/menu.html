@@ -11,12 +11,12 @@ layout: default
 
     <!-- Menu Buttons -->
     <center>
-        <a class="btn btn-success" href="images/main/esaan_dinner_menu.pdf" target="_blank" download>View PDF</a>
+        <a class="btn btn-dark btn-sm" href="images/main/esaan_dinner_menu.pdf" target="_blank" download>View PDF</a>
 
         <!-- If you would like to customize the button, remove or change the "class" attribute inside the <span> tag -->
         <!-- https://www.inetonlineorder.com/admin/public/website-install-howto?d=RXNhYW4lMjBNY2xlYW58LXwzYmJhMzdjZC04OWViLTQ4MjgtYjk4Mi1iZjFhODQ4NjI1ZDV8LXxlODBlYmE1My1kNmNkLTQ5OWEtOTY2ZC1lNWZhYjIxMmE1NTh8LXxTZWUlMjBNRU5VJTIwJTI2JTIwT3JkZXI%3D -->
         <script src="https://www.fbgcdn.com/embedder/js/ewm2.js" defer async></script>
-        <a class="btn btn-success" data-glf-cuid="e80eba53-d6cd-499a-966d-e5fab212a558" data-glf-ruid="3bba37cd-89eb-4828-b982-bf1a848625d5" style="color:white !important">Order!</a>
+        <a class="btn btn-success btn-sm" data-glf-cuid="e80eba53-d6cd-499a-966d-e5fab212a558" data-glf-ruid="3bba37cd-89eb-4828-b982-bf1a848625d5" style="color:white !important">Order now</a>
     </center>
 
     {% include soundcloud.html %}
@@ -25,7 +25,7 @@ layout: default
     <div class="container">
 
         <div class="nav nav-pills nav-fill" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-            <a class="nav-link active" id="v-pills-winter-tab" data-toggle="pill" href="#v-pills-winter" role="tab" aria-controls="v-pills-winter" aria-selected="true">Winter Special</a>
+            <a class="nav-link active" id="v-pills-special-tab" data-toggle="pill" href="#v-pills-special" role="tab" aria-controls="v-pills-special" aria-selected="true">Summer Special</a>
             <a class="nav-link" id="v-pills-popular-tab" data-toggle="pill" href="#v-pills-popular" role="tab" aria-controls="v-pills-popular" aria-selected="false">Popular</a>
             <a class="nav-link" id="v-pills-apps-tab" data-toggle="pill" href="#v-pills-apps" role="tab" aria-controls="v-pills-apps" aria-selected="false">Anthaipasto</a>
             <a class="nav-link" id="v-pills-somtum-tab" data-toggle="pill" href="#v-pills-somtum" role="tab" aria-controls="v-pills-somtum" aria-selected="false"><img src="images/icons/icons8-mortar-and-pestle-100.png" style="height:1.25rem;"></a>
@@ -39,13 +39,13 @@ layout: default
             <a class="nav-link" id="v-pills-dessert-tab" data-toggle="pill" href="#v-pills-dessert" role="tab" aria-controls="v-pills-dessert" aria-selected="false"><img src="images/icons/icons8-banana-split-100.png" style="height:1.25rem;"></a>
             <a class="nav-link" id="v-pills-drinks-tab" data-toggle="pill" href="#v-pills-drinks" role="tab" aria-controls="v-pills-drinks" aria-selected="false"><img src="images/icons/icons8-coconut-cocktail-100.png" style="height:1.25rem;"></a>
             <a class="nav-link" id="v-pills-sides-tab" data-toggle="pill" href="#v-pills-sides" role="tab" aria-controls="v-pills-sides" aria-selected="false">Sides</a>
-            <a class="nav-link" id="v-pills-special-tab" data-toggle="pill" href="#v-pills-special" role="tab" aria-controls="v-pills-special" aria-selected="false">Weekend Special</a>
+            <a class="nav-link" id="v-pills-weekend-tab" data-toggle="pill" href="#v-pills-weekend" role="tab" aria-controls="v-pills-weekend" aria-selected="false">Weekend Special</a>
         </div>
 
         <div class="tab-content" id="v-pills-tabContent">
-            <div class="tab-pane fade show active" id="v-pills-winter" role="tabpanel" aria-labelledby="v-pills-winter-tab">
+            <div class="tab-pane fade show active" id="v-pills-special" role="tabpanel" aria-labelledby="v-pills-special-tab">
                 <div class="card-columns">
-                    {% for item in site.data.special %}
+                    {% for item in site.data.summer %}
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title">{{ item.name }} - ({{ item.price }})</h5>
@@ -225,7 +225,7 @@ layout: default
                     {% endfor %}
                 </div>
             </div>
-            <div class="tab-pane fade" id="v-pills-special" role="tabpanel" aria-labelledby="v-pills-special-tab">
+            <div class="tab-pane fade" id="v-pills-weekend" role="tabpanel" aria-labelledby="v-pills-weekend-tab">
                 <div class="card">
                     <div class="card-body text-center">
                         <h5 class="card-title">Weekend Special</h5>

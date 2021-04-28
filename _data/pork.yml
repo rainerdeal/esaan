@@ -3,6 +3,7 @@
   thai_name: ลาบหมู
   description: Spicy minced pork mixed with roasted rice and fresh Thai herbs.
   price: 16
+  popular: true
 -
   name: Tom Zapp Moo
   thai_name: ต้มแซ่บหมู
@@ -18,8 +19,10 @@
   thai_name: หมูนำ้ตก
   description: Grilled pork shoulder mixed with scallion, red onion, mint, cilantro, chili, and roasted rice.
   price: 18
+  popular: true
 -
   name: Kor Moo Yang
   thai_name: คอหมูย่าง
   description: Grilled pork shoulder served with spicy tamarind sauce.
   price: 18
+  popular: true

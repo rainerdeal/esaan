@@ -28,11 +28,13 @@
   thai_name: ผัดหมี่โคราช
   description: Stir fried rice noodles with bean sprouts and chives mixed with tamarind sauce. Topped with fried garlic.
   price: 15
+  popular: true
 -
   name: Kao-Soi Tofu
   thai_name: ข้าวซอยเต้าหู้
   description: Northern Thai style egg noodle soup in yellow coconut curry with fried tofu.
   price: 16
+  popular: true
 -
   name: Esaan Panang Curry Tofu
   thai_name: แพนงเต้าหู้

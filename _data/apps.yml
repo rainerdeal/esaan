@@ -3,11 +3,13 @@
   thai_name: ปูนิ่มทอด
   description: Fried Soft Shell crab in a chili and basil sauce.
   price: 18
+  popular: true
 -
   name: Esaan Crispy Spring Roll
   thai_name: ปอเปี้ยะทอด
   description: Crispy spring roll with carrot, vermicelli, and onion.
   price: 7
+  popular: true
 -
   name: Crispy Fried Tofu
   thai_name: เต้าหู้ทอดกรอบ
@@ -33,21 +35,25 @@
   thai_name: หมูสามชั้นทอดกรอบ
   description: Fried Marinated pork belly served with tamarind sauce.
   price: 18
+  popular: true
 -
   name: Kuaytiew Luisuan
   thai_name: ก๋วยเตี๋ยวลุยสวน
   description: Rice paper wrapped with tofu, egg, fresh cabbages, cucumber, and lettuce.
   price: 9
+  popular: true
 -
   name: Chiangmai Sausage
   thai_name: ไส้อั่ว
   description: A grilled pork sausage with packed of herby, spicy, and curry flavor. A northern Thai original dish.
   price: 10
+  popular: true
 -
   name: Kai Tod Samoon Prai
   thai_name: ปีกไก่ทอดสมุนไพร
   description: Fried chicken wings marinated with lemongrass, lime leaf, and garlic.
   price: 10
+  popular: true
 -
   name: Yum Kanom Jeen Pla Too
   thai_name: ยำขนมจีนปลาทู
@@ -58,3 +64,4 @@
   thai_name: ปลาหมึกย่าง
   description: Grilled whole squid served with seafood sauce (Bangkok street food style).
   price: 16
+  popular: true

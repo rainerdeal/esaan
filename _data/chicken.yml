@@ -3,11 +3,13 @@
   thai_name: ผัดหมี่โคราช
   description: Stir fried rice noodles with bean sprouts and chives mixed with tamarind sauce. Topped with fried garlic.
   price: 16
+  popular: true
 -
   name: Kao-Soi Kai
   thai_name: ข้าวซอยไก่
   description: Thai Northern Style egg noodle soup in yellow coconut curry with a chicken drumstick.
   price: 16
+  popular: true
 -
   name: Esaan Panang Curry Chicken
   thai_name: แพนงไก
@@ -18,6 +20,7 @@
   thai_name: ยำไก่แซ่บ
   description: Fried chicken mixed with scallion, red onion, mint, cilantro, chili, and roasted rice.
   price: 18
+  popular: true
 -
   name: Kai Yang Esaan
   thai_name: ไก่ย่างอีสาน

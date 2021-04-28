@@ -3,6 +3,7 @@
   thai_name: ผัดหมี่โคราช
   description: Stir fried rice noodles with bean sprouts and chives mixed with tamarind sauce. Topped with fried garlic.
   price: 18
+  popular: true
 -
   name: Pla Koong
   thai_name: พล่ากุ้ง

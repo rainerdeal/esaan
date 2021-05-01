@@ -1,5 +1,11 @@
 -
-  name: Soft Shell Crab Entrée
+  name: Soft Shell Crab
+  thai_name: ปูนิ่มทอด
+  description: Fried Soft Shell crab in a chili and basil sauce.
+  price: 18
+  popular: true
+-
+  name: Soft Shell Crab (entrée)
   thai_name: ปูนิ่ม
   description: Two crabs grilled or fried.
   price: 38

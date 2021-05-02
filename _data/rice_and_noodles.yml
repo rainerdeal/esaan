@@ -3,6 +3,7 @@
   thai_name: ข้าวมันไก่ทอด
   description: Steamed chicken rice with fried chicken. Comes with sweet sauce and served with radish soup.
   price: 15
+  popular: true
 -
   name: Koa Na Moo Yang
   thai_name: ข้าวหน้าหมูย่าง
@@ -18,16 +19,19 @@
   thai_name: ก๋วยเตี๋ยวเนื้อ
   description: Beef Briskey Soup with Thai famous thin rice noodles.
   price: 16
+  popular: true
 -
   name: Esaan Pad Thai (Pad Mee Korat)
   thai_name: ผัดหมี่โคราช
   description: Stir fried rice noodles with bean sprouts and chives mixed with tamarind sauce. Topped with fried garlic. Can be served with tofu (15), chicken (16), or shrimp (18).
   price: 15-18
+  popular: true
 -
   name: Kao Soi
   thai_name:  ข้าวซอยไก่
   description: Northern Thai style egg noodle soup in coconut yellow curry and served with chicken drumstick.
   price: 16
+  popular: true
 -
   name: Kao Kluk Ka Pi
   thai_name: ข้าวคลุกกะปิ

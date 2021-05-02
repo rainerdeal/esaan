@@ -3,8 +3,6 @@ layout: awards
 title: ESAAN Tumbar - Awards
 ---
 
-We da bes!
-
 #### Awards
 - The Washington Post [Review](https://www.washingtonpost.com/goingoutguide/restaurants/esaan-serves-a-delicious-lesson-in-northeastern-thai-cuisine/2017/09/26/3e91436a-9f1d-11e7-9083-fbfddf6804c2_story.html){:target="_blank"}
   - [Where To Eat](https://www.washingtonpost.com/amphtml/news/going-out-guide/wp/2017/11/22/going-shopping-heres-where-to-eat-near-washingtons-retail-hubs/){:target="_blank"}

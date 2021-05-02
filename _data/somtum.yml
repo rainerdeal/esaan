@@ -19,6 +19,7 @@
   thai_name: สัมตำมั่ว
   description: Esaan style papaya salad mixed with fermented fish sauce, noodles, Thai eggplants, pickles, cabbages, green beans, pork sausage, and pork skin chip.
   price: 12
+  popular: true
 -
   name: Somtum Kaikem
   thai_name: ส้มตำไข่เค็ม

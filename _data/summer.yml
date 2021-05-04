@@ -10,3 +10,13 @@
   description: Two crabs grilled or fried with special Esaan sauce.
   price: 38
   popular: true
+-
+  name: Jasmine Green Tea Iced Latte
+  thai_name:
+  description:
+  price: 5
+-
+  name: Esaan Sausage
+  thai_name: ไส้กรอกอีสาน
+  description: Marinated minced pork, rice, salt, and black pepper.
+  price: 12

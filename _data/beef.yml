@@ -2,10 +2,10 @@
   name: Nam Tok Nue
   thai_name: น้ำตกเนื้อ
   description: Grilled spicy NY strip loin mixed with scallion, red onion, mint, cilantro, chili, and roasted rice.
-  price: 20
+  price: 25
 -
   name: Crying Tiger
   thai_name: เนื้อย่าง
   description: Grilled marinated NY stip loin steak, comes with spicy Esaan sauce.
-  price: 22
+  price: 25
   popular: true

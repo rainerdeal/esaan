@@ -2,13 +2,13 @@
   name: Soft Shell Crab
   thai_name: ปูนิ่มทอด
   description: Fried Soft Shell crab in a chili and basil sauce.
-  price: 19
+  price: 20
   popular: true
 -
   name: Soft Shell Crab (entrée)
   thai_name: ปูนิ่ม
   description: Two crabs grilled or fried with special Esaan sauce.
-  price: 38
+  price: 40
   popular: true
 -
   name: Jasmine Green Tea Iced Latte

@@ -27,7 +27,7 @@
   name: Grilled Squid
   thai_name: ปลาหมึกย่าง
   description: Grilled whole squid serve with seafood sauce (Bangkok street food style).
-  price: 16
+  price: 18
 -
   name: Crispy Pork Belly
   thai_name: หมูสามชั้นทอดกรอบ
@@ -72,7 +72,7 @@
   name: Yum Kai Zapp
   thai_name: ยำไก่แซ่บ
   description: Fried chicken mixed with scallion, red onion, mint, cilantro, chili, and roasted rice.
-  price: 18
+  price: 19
 -
   name: Sticky Rice with Thai Custard
   thai_name: ข้าวเหนียวสังขยา

@@ -13,3 +13,15 @@
 -
   name: Lemonade/Cranberry Juice
   price: 4
+-
+  name: Green Tea Iced Latte
+  price: 5
+-
+  name: Sparkling Water
+  price: 4/8
+-
+  name: Hot Green Tea
+  price: 4
+-
+  name: Iced Green Tea
+  price: 3

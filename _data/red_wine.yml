@@ -1,0 +1,36 @@
+-
+  name: Villa Marcello
+  style: Prosecco
+  origination: Italy
+  description: Hints of peach and golden apple.
+  price: 11/40
+-
+  name: Bertarose
+  style: Rosé
+  origination: Italy
+  description: Fresh aromas of pomegranate and red currants with floral notes. Good body and balance between acidity and minerality.
+  price: 10/38
+-
+  name: Cloudfall
+  style: Pinot Noir
+  origination: California
+  description: Strong varietal aromas of berries, hints of spice, and a soft tannin finish.
+  price: 13/48
+-
+  name: Gouquenheim
+  style: Malbec
+  origination: Argentina
+  description: Bright dark red color with violet hints. Rich and strong aromas, well balanced acidity, and a long finish.
+  price: 11/40
+-
+  name: Alvarez de Toledo
+  style: Mencia
+  origination: Spain
+  description: Ripe blackberry, plum, and prune aromas are smokey and generous. Fresh and balanced palate.
+  price: 11/40
+-
+  name: Callia Alta
+  style: Cabernet Sauvignon
+  origination: Argentina
+  description: On the nose, black and red fruit aromas combined with backing spice notes. Ripe fruit is balanced by mild tannins on palate.
+  price: 12/48

@@ -1,4 +1,10 @@
 -
+  name: Villa Marcello
+  style: Prosecco
+  origination: Italy
+  description: Hints of peach and golden apple.
+  price: 11/40
+-
   name: Saget "La Petite"
   style: Sauvignon Blanc
   origination: France
@@ -12,7 +18,7 @@
   price: 12/44
 -
   name: Benvolio
-  style: Pino Grigio
+  style: Pinot Grigio
   origination: Italy
   description: Delicate nuances of wild flowers, rose water, and lychee on the nose with apple and pear flavors on the palate.
   price: 10/38
@@ -40,9 +46,3 @@
   origination: South Africa
   description: Notes of lime and green apple.
   price: 70
--
-  name: Hush Heath Balfour 1503
-  style: Pino Noir
-  origination: England
-  description: Dry light and fruity through to creamy vanilla and spice.
-  price: 74

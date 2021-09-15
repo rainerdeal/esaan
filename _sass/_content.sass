@@ -13,25 +13,27 @@ body
     .card-body
         text-align: left
         padding: 10px
-        .media
-            img
-                height: 100px
+    #card-body-awards
+        text-align: center
+        padding: 15px
     .card-columns
         column-count: 2
         @include tablet
             column-count: 1
         @include mobile
             column-count: 1
-    #order-online
-        column-count: 3
-        @include tablet
-            column-count: 2
-        @include mobile
-            column-count: 1
-        img
-            height: 300px
-        .card-body
-            text-align: center
+    #card-columns-awards
+        column-count: 1
+        a:not(.btn)
+            background: linear-gradient(to bottom, $linkcolor 0%, $linkcolor 100%)
+            background-position: 0 100%
+            background-repeat: repeat-x
+            background-size: 4px 4px
+            color: black
+            text-decoration: none
+            transition: background-size .4s
+        a:hover
+            background-size: 4px 50px
     a.btn
         margin-bottom: .5rem
 

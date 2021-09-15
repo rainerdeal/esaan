@@ -9,34 +9,41 @@ layout: default
         </div>
     </div>
 
-    <!-- Featured Award/Review -->
+    <!-- Featured Award -->
     <div class="jumbotron jombotron-fluid">
-        <div class="container">
-            <style>
-                /* Hero Image */
-                .jumbotron {
-                    background-image: url("images/main/esaan_color.jpeg");
-                    height: 400px;
-                    background-position: center;
-                    background-repeat: no-repeat;
-                    background-size: cover;
-                    margin-bottom: 0.5rem
-                }
-            </style>
-            <h1 class="display-4">Voted #1 McLean</h1>
+        <div class="container" id="awards-jumbotron-container">
+
+            {% for item in site.data.testimonials limit:1 %}
+                <style>
+                    /* Hero Image for Blog Posts */
+                    .jumbotron {
+                        background-image: url("../images/main/esaan_color.jpeg");
+                        height: 400px;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                        margin-bottom: 0.5rem
+                    }
+                </style>
+                <h1 class="display-4">"{{ item.title }}"</h1>
+                <p>{{ item.name }}</p>
+                <!-- <p>{{ item.date | date: '%B %-d, %Y' }}</p> -->
+                <a class="btn btn-success btn-md" href="{{ item.link }}" role="button">Read</a>
+            {% endfor %}
+
         </div>
     </div>
 
     <!-- Awards/Reviews -->
-    <div class="card-columns">
+    <div class="card-columns" id="card-columns-awards">
 
-        {% for item in site.data.testimonials %}
+        {% for item in site.data.testimonials offset:1 %}
 
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">{{ item.title }}</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">{{ item.name }}</h6>
-                    <p class="card-text">{{ item.name }}</p>
+            <div class="card border-0">
+                <div class="card-body" id="card-body-awards">
+                    <h5 class="card-title">"{{ item.title }}"</h5>
+                    <a class="card-text" href="{{ item.link }}">{{ item.name }}</a>
                 </div>
             </div>
 

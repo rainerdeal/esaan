@@ -5,7 +5,7 @@ layout: default
 
     <div class="sticker-wrapper">
         <div class="sticker">
-            <h1 class="title">Awards</h1>
+            <h1 class="title">Press</h1>
         </div>
     </div>
 
@@ -29,7 +29,7 @@ layout: default
                 <h1 class="display-4">"{{ item.title }}"</h1>
                 <p>{{ item.name }}</p>
                 <!-- <p>{{ item.date | date: '%B %-d, %Y' }}</p> -->
-                <a class="btn btn-success btn-md" href="{{ item.link }}" role="button">Read</a>
+                <a class="btn btn-success btn-md" href="{{ item.link }}" target="_blank" role="button">Read</a>
             {% endfor %}
 
         </div>
@@ -43,7 +43,7 @@ layout: default
             <div class="card border-0">
                 <div class="card-body" id="card-body-awards">
                     <h5 class="card-title">"{{ item.title }}"</h5>
-                    <a class="card-text" href="{{ item.link }}">{{ item.name }}</a>
+                    <a class="card-text" href="{{ item.link }}" target="_blank">{{ item.name }}</a>
                 </div>
             </div>
 

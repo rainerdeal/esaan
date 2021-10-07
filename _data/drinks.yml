@@ -1,4 +1,9 @@
 -
+  name: Lemon Soda
+  thai_name: นำ้โซดามะนาว
+  price: 5
+  popular: true
+-
   name: Soda
   thai_name: โซดา
   price: 3
@@ -16,6 +21,7 @@
 -
   name: Green Tea Iced Latte
   price: 5
+  popular: true
 -
   name: Sparkling Water
   price: 4/8

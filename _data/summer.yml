@@ -1,15 +1,15 @@
--
-  name: Soft Shell Crab
-  thai_name: ปูนิ่มทอด
-  description: Fried Soft Shell crab in a chili and basil sauce.
-  price: 20
-  popular: true
--
-  name: Soft Shell Crab (entrée)
-  thai_name: ปูนิ่ม
-  description: Two crabs grilled or fried with special Esaan sauce.
-  price: 40
-  popular: true
+#-
+#  name: Soft Shell Crab
+#  thai_name: ปูนิ่มทอด
+#  description: Fried Soft Shell crab in a chili and basil sauce.
+#  price: 20
+#  popular: true
+#-
+#  name: Soft Shell Crab (entrée)
+#  thai_name: ปูนิ่ม
+#  description: Two crabs grilled or fried with special Esaan sauce.
+#  price: 40
+#  popular: true
 -
   name: Jasmine Green Tea Iced Latte
   thai_name:
@@ -17,8 +17,19 @@
   price: 5
   popular: true
 -
+  name: Lemon Soda
+  thai_name: นำ้โซดามะนาว
+  price: 5
+  popular: true
+-
   name: Esaan Sausage
   thai_name: ไส้กรอกอีสาน
   description: Marinated minced pork, rice, salt, and black pepper.
   price: 12
+  popular: true
+-
+  name: Crispy Spicy Prawn
+  thai_name: ลาบกุ้งทอด
+  description: Crispy little spicy prawn mixed with spicy lime sauce and roasted rice (served with shell and head on).
+  price: 16
   popular: true

@@ -1,9 +1,9 @@
--
-  name: Soft Shell Crab
-  thai_name: ปูนิ่มทอด
-  description: Fried Soft Shell crab in a chili and basil sauce.
-  price: 20
-  popular: true
+#-
+#  name: Soft Shell Crab
+#  thai_name: ปูนิ่มทอด
+#  description: Fried Soft Shell crab in a chili and basil sauce.
+#  price: 20
+#  popular: true
 -
   name: Esaan Crispy Spring Roll
   thai_name: ปอเปี้ยะทอด
@@ -21,11 +21,6 @@
   description: Fried or steamed pork sausage.
   price: 10
 -
-  name: Kai-Kra-Ta
-  thai_name: ไข่กะทะ
-  description: 2 eggs sunny side up with two types of Thai pork sausage and minced pork.
-  price: 10
--
   name: Mieng Pla Too
   thai_name: เมี่ยงปลาทู
   description: Fied Mackerel served over lettuce, basil, noodle, lemongrass, ginger, lime, and red onion.
@@ -41,6 +36,12 @@
   thai_name: ก๋วยเตี๋ยวลุยสวน
   description: Rice paper wrapped with tofu, egg, fresh cabbages, cucumber, and lettuce.
   price: 9
+  popular: true
+-
+  name: Esaan Sausage
+  thai_name: ไส้กรอกอีสาน
+  description: Marinated minced pork, rice, salt, and black pepper.
+  price: 12
   popular: true
 -
   name: Chiangmai Sausage

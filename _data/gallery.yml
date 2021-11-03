@@ -1,4 +1,20 @@
 -
+  name: Crispy Spicy Prawns
+  image: images/main/crispy_spicy_prawns.JPG
+  alt-text: "Large prawns resting on a bamboo leaf and white plate."
+-
+  name: NY Strip with Coconut Rice and Green Curry
+  image: images/esaan_gallery/coconut_rice_green_curry.jpeg
+  alt-text: "Coconut rice resting on a bamboo leaf with a large cut of NY strip steak and green curry."
+-
+  name: Larb Moo
+  image: images/esaan_gallery/larb_moo.JPG
+  alt-text: "Ground pork and vegetables resting on a bamboo leaf on a white plate."
+-
+  name: Kao Soi Beef
+  image: images/esaan_gallery/kao_soi_beef.JPG
+  alt-text: "Beef and vegetables in curry."
+-
   name: Tom Yum Noodle Soup
   image: images/esaan_gallery/tom_yum_noodle_soup.jpeg
   alt-text: "Tom Yum Noodle Soup on a wooden table."

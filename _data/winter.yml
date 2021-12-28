@@ -1,18 +1,18 @@
 -
   name: Tom Yum Soup
   thai_name: ต้มยำซุป
-  description: Savory traditional spicy soup with exotic Thai herbs, mushroom, red onion, lime juice, tomato,basil, and lemongrass.
+  description: Savory traditional spicy soup with exotic Thai herbs, mushroom, red onion, lime juice, tomato, basil, and lemongrass.
   price: 7
 -
   name: Stewed Chicken Drumstick Noodles Soup
   thai_name: ก๋วยเตี๋ยวน่องไก่ตุ๋น
   description: Stewed chicken soup with beansprouts and famous Thai thin rice noodles.
-  price: 16
+  price: 17
 -
   name: Stewed Beef Noodle Soup
   thai_name: ก๋วยเตี๋ยวเนื้อตุ่น
   description: Beef brisket soup with beansprouts and famous Thai thin rice noodles.
-  price: 16
+  price: 17
 -
   name: Kao-Soi
   thai_name: ข้าวซอย
@@ -27,12 +27,12 @@
   name: Panang Curry
   thai_name: แกงแพนง
   description: Peanut flavored red curry with coconut milk, kaffir lime leaves, and basil.
-  price: 15
+  price: 16
 -
   name: TomYum Noodle Soup
   thai_name: ก๋วยเตี๋ยวต้มยำหมูสับมะนาว
   description: Spicy sour flavor egg noodle TomYum soup with minced pork and fish balls.
-  price: 17
+  price: 18
 -
   name: Esaan Tom Zapp
   thai_name: ต้มแซ่บอีสาน

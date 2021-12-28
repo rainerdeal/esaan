@@ -2,18 +2,18 @@
   name: Kao Mun Kai Tod
   thai_name: ข้าวมันไก่ทอด
   description: Steamed chicken rice with fried chicken. Comes with sweet sauce and served with radish soup.
-  price: 15
+  price: 16
   popular: true
 -
   name: Koa Na Moo Yang
   thai_name: ข้าวหน้าหมูย่าง
   description: Jasmine rice with grilled pork and spicy sauce on the side.
-  price: 15
+  price: 16
 -
   name: Ba Mee Na Moo Yang
   thai_name: บะหมี่หมูย่าง
   description: Egg noodles with grilled pork and spicy sauce on the side.
-  price: 15
+  price: 16
 -
   name: Stewed Beef Noodles Soup
   thai_name: ก๋วยเตี๋ยวเนื้อ
@@ -23,8 +23,8 @@
 -
   name: Esaan Pad Thai (Pad Mee Korat)
   thai_name: ผัดหมี่โคราช
-  description: Stir fried rice noodles with bean sprouts and chives mixed with tamarind sauce. Topped with fried garlic. Can be served with tofu (15), chicken (16), or shrimp (18).
-  price: 15-18
+  description: Stir fried rice noodles with bean sprouts and chives mixed with tamarind sauce. Topped with fried garlic. Can be served with tofu (16), chicken (17), or shrimp (19).
+  price: 16-19
   popular: true
 -
   name: Kao Soi
@@ -36,10 +36,10 @@
   name: Kao Kluk Ka Pi
   thai_name: ข้าวคลุกกะปิ
   description: Shrimp paste fried rice with sweet pork, omelet, pork sausage, green bean, red onion, mango, and chilis.
-  price: 18
+  price: 19
 -
   name: Massaman
   thai_name: มัสมั่นไก่
   description: Dark chicken meat in the massaman curry paste, chock-full of fragrant spiced potatoes, onion, and peanuts.
-  price: 16
+  price: 17
   popular: true

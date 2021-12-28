@@ -2,19 +2,19 @@
   name: Esaan Pad Thai Chicken (Pad Mee Korat)
   thai_name: ผัดหมี่โคราช
   description: Stir fried rice noodles with bean sprouts and chives mixed with tamarind sauce. Topped with fried garlic.
-  price: 16
+  price: 17
   popular: true
 -
-  name: Kao-Soi Kai
+  name: Kao Soi Kai
   thai_name: ข้าวซอยไก่
   description: Thai Northern Style egg noodle soup in yellow coconut curry with a chicken drumstick.
-  price: 16
+  price: 17
   popular: true
 -
   name: Esaan Panang Curry Chicken
   thai_name: แพนงไก
   description: Esaan style peanut flavor Panang curry with kaffir lime leaves.
-  price: 16
+  price: 17
 -
   name: Yum Kai Zapp
   thai_name: ยำไก่แซ่บ

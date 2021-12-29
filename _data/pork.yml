@@ -2,13 +2,13 @@
   name: Larb Moo
   thai_name: ลาบหมู
   description: Spicy minced pork mixed with roasted rice and fresh Thai herbs.
-  price: 16
+  price: 18
   popular: true
 -
   name: Tom Zapp Moo
   thai_name: ต้มแซ่บหมู
   description: Spicy Esaan soup with pork cartilage, tomato, lemongrass, galangal, and onion.
-  price: 16
+  price: 17
 -
   name: Moo Nam Tok
   thai_name: หมูนำ้ตก

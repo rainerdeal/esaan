@@ -15,10 +15,10 @@
   description: Egg noodles with grilled pork and spicy sauce on the side.
   price: 16
 -
-  name: Stewed Beef Noodles Soup
-  thai_name: ก๋วยเตี๋ยวเนื้อ
-  description: Beef Briskey Soup with Thai famous thin rice noodles.
-  price: 16
+  name: Stewed Beef Noodle Soup
+  thai_name: ก๋วยเตี๋ยวเนื้อตุ่น
+  description: Beef brisket soup with beansprouts and famous Thai thin rice noodles.
+  price: 17
   popular: true
 -
   name: Esaan Pad Thai (Pad Mee Korat)

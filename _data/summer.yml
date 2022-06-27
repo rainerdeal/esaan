@@ -9,18 +9,18 @@
   thai_name: นำ้โซดามะนาว
   price: 5
   popular: true
--
-  name: Soft Shell Crab
-  thai_name: ปูนิ่มทอด
-  description: Fried Soft Shell crab in a chili and basil sauce.
-  price: 21
-  popular: true
--
-  name: Soft Shell Crab (entrée)
-  thai_name: ปูนิ่ม
-  description: Two crabs grilled or fried with special Esaan sauce.
-  price: 42
-  popular: true
+#-
+#  name: Softshell Crab
+#  thai_name: ปูนิ่มทอด
+#  description: Fried Softshell crab in a chili and basil sauce.
+#  price: 21
+#  popular: true
+#-
+#  name: Softshell Crab (entrée)
+#  thai_name: ปูนิ่ม
+#  description: Two crabs grilled or fried with special Esaan sauce.
+#  price: 42
+#  popular: true
 -
   name: Esaan Sausage
   thai_name: ไส้กรอกอีสาน

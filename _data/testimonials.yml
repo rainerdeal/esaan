@@ -1,4 +1,8 @@
 -
+  name: DC Eater
+  title: 15 Standout Thai Restaurants Around D.C.
+  link: https://dc.eater.com/maps/best-thai-restaurants-dc/esaan
+-
   name: Northern Virginia Magazine
   title: "Best Restaurants 2021: Esaan Northeastern Thai Cuisine"
   link: https://northernvirginiamag.com/food/reviews/2021/11/02/best-restaurants-2021-esaan-northeastern-thai-cuisine/
@@ -50,10 +54,10 @@
   name: Washington City Paper
   title: Where To Get Your Whole Fried Fish Fix in the D.C. Area
   link: https://www.washingtoncitypaper.com/food/article/21025870/where-to-get-your-whole-fried-fish-fix-in-the-dc-area
--
-  name: DC Eater
-  title: 16 Standout Thai Restaurants Around D.C.
-  link: https://dc.eater.com/platform/amp/maps/best-thai-restaurants-dc
+#-
+#  name: DC Eater
+#  title: 16 Standout Thai Restaurants Around D.C.
+#  link: https://dc.eater.com/platform/amp/maps/best-thai-restaurants-dc
 -
   name: Two Eatin' Grannies
   title: ESAAN TUMBAR

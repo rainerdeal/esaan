@@ -34,7 +34,7 @@ layout: default
 
         <!-- Menu Nav -->
         <div class="nav nav-pills nav-fill" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-            <a class="nav-link active" id="v-pills-special-tab" data-toggle="pill" href="#v-pills-special" role="tab" aria-controls="v-pills-special" aria-selected="true">Winter Special</a>
+            <a class="nav-link active" id="v-pills-special-tab" data-toggle="pill" href="#v-pills-special" role="tab" aria-controls="v-pills-special" aria-selected="true">Summer Special</a>
             <a class="nav-link" id="v-pills-apps-tab" data-toggle="pill" href="#v-pills-apps" role="tab" aria-controls="v-pills-apps" aria-selected="false">Appetizer</a>
             <a class="nav-link" id="v-pills-somtum-tab" data-toggle="pill" href="#v-pills-somtum" role="tab" aria-controls="v-pills-somtum" aria-selected="false"><img src="images/icons/icons8-mortar-and-pestle-100.png" style="height:1.25rem;"></a>
             <a class="nav-link" id="v-pills-rice-and-noodles-tab" data-toggle="pill" href="#v-pills-rice-and-noodles" role="tab" aria-controls="v-pills-rice-and-noodles" aria-selected="false"><img src="images/icons/icons8-rice-bowl-100.png" style="height:1.25rem;"></a>
@@ -55,11 +55,11 @@ layout: default
             <div class="tab-pane fade show active" id="v-pills-special" role="tabpanel" aria-labelledby="v-pills-special-tab">
                 <div class="sticker-wrapper">
                     <div class="sticker">
-                        <h1 class="title">Winter Special</h1>
+                        <h1 class="title">Summer Special</h1>
                     </div>
                 </div>
                 <div class="card-columns">
-                    {% for item in site.data.winter %}
+                    {% for item in site.data.summer %}
                         <div class="card border-dark">
                             <div class="card-body">
                                 <h5 class="card-title">{{ item.name }} | {{ item.price }}

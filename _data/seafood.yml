@@ -2,7 +2,7 @@
   name: Esaan Pad Thai Shrimp (Pad Mee Korat)
   thai_name: ผัดหมี่โคราช
   description: Stir fried rice noodles with bean sprouts and chives mixed with tamarind sauce. Topped with fried garlic.
-  price: 19
+  price: 20
   popular: true
 -
   name: Pla Koong
@@ -13,9 +13,9 @@
   name: Yum Woon Sen
   thai_name: ยำวุ้นเส้น
   description: Bean curd noodle mixed with shrimp, minced pork, tomato, cilantro, red onion, scallion, lime, chilli, and peanuts.
-  price: 20
+  price: 22
 -
   name: Esaan Panang Curry Shrimp
   thai_name: แพนงกุ้ง
   description: Esaan style peanut flavor Panang curry with kaffir lime leaves.
-  price: 20
+  price: 22

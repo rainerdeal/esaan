@@ -2,41 +2,41 @@
   name: Esaan Green
   thai_name: อีสานเขียว
   description: Vegetable of the Day with Esaan special sauce.
-  price: 16
+  price: 20
 -
   name: Larb Hed
   thai_name: ลาบเห็ด
   description: Spicy mushroom mixed with roasted rice and fresh Thai herbs.
-  price: 16
+  price: 18
 -
   name: Larb Tofu
   thai_name: ลาบเต้าหู้
   description: Spicy crispy fried tofu mixed with roasted rice and fresh Thai herbs.
-  price: 16
+  price: 18
 -
   name: Tom Zapp Hed
   thai_name: ต้มแซ่บเห็ด
   description: Spicy Esaan soup with mixed mushrooms, tomato, lemongrass, galangal, and onion.
-  price: 16
+  price: 18
 -
   name: Thai Rich Tofu
   thai_name: เต้าหู้ทรงเครื่อง
   description: Fried soft tofu topped with brown sauce, fried garlic, ginger, and scallions.
-  price: 16
+  price: 18
 -
   name: Esaan Pad Thai Tofu (Pad Mee Korat)
   thai_name: ผัดหมี่โคราช
   description: Stir fried rice noodles with bean sprouts and chives mixed with tamarind sauce. Topped with fried garlic.
-  price: 16
+  price: 17
   popular: true
 -
   name: Kao Soi Tofu
   thai_name: ข้าวซอยเต้าหู้
   description: Northern Thai style egg noodle soup in yellow coconut curry with fried tofu.
-  price: 16
+  price: 17
   popular: true
 -
   name: Esaan Panang Curry Tofu
   thai_name: แพนงเต้าหู้
   description: Esaan style peanut flavor Panang curry with kaffir lime leaves.
-  price: 16
+  price: 17

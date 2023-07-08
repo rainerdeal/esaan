@@ -8,13 +8,13 @@
   name: Esaan Crispy Spring Roll
   thai_name: ปอเปี้ยะทอด
   description: Crispy spring roll with carrot, vermicelli, and onion.
-  price: 8
+  price: 9
   popular: true
 -
   name: Crispy Fried Tofu
   thai_name: เต้าหู้ทอดกรอบ
   description: Fried tofu with sweet peanut sauce.
-  price: 8
+  price: 9
 -
   name: Moo Yor
   thai_name: หมูยอ
@@ -24,12 +24,12 @@
   name: Mieng Pla Too
   thai_name: เมี่ยงปลาทู
   description: Fied Mackerel served over lettuce, basil, noodle, lemongrass, ginger, lime, and red onion.
-  price: 12
+  price: 15
 -
   name: Crispy Pork Belly
   thai_name: หมูสามชั้นทอดกรอบ
   description: Fried Marinated pork belly served with tamarind sauce.
-  price: 19
+  price: 20
   popular: true
 -
   name: Kuaytiew Luisuan

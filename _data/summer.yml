@@ -11,13 +11,13 @@
   name: Softshell Crab
   thai_name: ปูนิ่มทอด
   description: Fried Softshell crab in a chili and basil sauce.
-  price: 21
+  price: 20
   popular: true
 -
   name: Softshell Crab (entrée)
   thai_name: ปูนิ่ม
   description: Two crabs grilled or fried with special Esaan sauce.
-  price: 42
+  price: 40
   popular: true
 -
   name: Chiangmai Sausage
@@ -35,7 +35,7 @@
   name: Crispy Spicy Prawns
   thai_name: ลาบกุ้งทอด
   description: Crispy little spicy prawn mixed with spicy lime sauce and roasted rice (served with shell and head on).
-  price: 19
+  price: 20
   popular: true
 -
   name: Steamed Fish in Hotpot

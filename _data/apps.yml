@@ -16,12 +16,12 @@
   description: Fried tofu with sweet peanut sauce.
   price: 9
 -
-  name: Moo Yor
+  name: Moo Yor (Gluten Free)
   thai_name: หมูยอ
   description: Fried or steamed pork sausage.
   price: 10
 -
-  name: Mieng Pla Too
+  name: Mieng Pla Too (Gluten Free)
   thai_name: เมี่ยงปลาทู
   description: Fied Mackerel served over lettuce, basil, noodle, lemongrass, ginger, lime, and red onion.
   price: 15
@@ -38,13 +38,13 @@
   price: 9
   popular: true
 -
-  name: Esaan Sausage
+  name: Esaan Sausage (Gluten Free)
   thai_name: ไส้กรอกอีสาน
   description: Marinated minced pork, rice, salt, and black pepper.
   price: 12
   popular: true
 -
-  name: Chiangmai Sausage
+  name: Chiangmai Sausage (Gluten Free)
   thai_name: ไส้อั่ว
   description: A grilled pork sausage with packed of herby, spicy, and curry flavor. A northern Thai original dish.
   price: 12
@@ -56,7 +56,7 @@
   price: 10
   popular: true
 -
-  name: Yum Kanom Jeen Pla Too
+  name: Yum Kanom Jeen Pla Too (Gluten Free)
   thai_name: ยำขนมจีนปลาทู
   description: Vermicelli noodle, fried mackerel mixed with Thai herbs.
   price: 16

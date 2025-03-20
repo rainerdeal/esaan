@@ -5,12 +5,12 @@
   price: 20
   popular: true
 -
-  name: Pla Koong
+  name: Pla Koong (Gluten Free)
   thai_name: พล่ากุ้ง
   description: Shrimp mixed with lemongrass, mint, red onion, scallion, lime leaf, lime, and fresh chili.
   price: 21
 -
-  name: Yum Woon Sen
+  name: Yum Woon Sen (Gluten Free)
   thai_name: ยำวุ้นเส้น
   description: Bean curd noodle mixed with shrimp, minced pork, tomato, cilantro, red onion, scallion, lime, chilli, and peanuts.
   price: 22

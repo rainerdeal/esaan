@@ -1,5 +1,5 @@
 -
-  name: Somtum Thai
+  name: Somtum Thai (Gluten Free)
   thai_name: ส้มตำไทย
   description: Original Thai style spicy papaya salad with green beans, tomatoes, and peanuts.
   price: 10
@@ -10,18 +10,18 @@
   description: Esaan spicy corn salad with salted eggs, green beans, and cherry tomatoes.
   price: 12
 -
-  name: Somtum Plara
+  name: Somtum Plara (Gluten Free)
   thai_name: ส้มตำปลาร้า
   description: Classic Esaan papaya salad with fermented fish sauce and Thai eggplant.
   price: 10
 -
-  name: Somtum Muor
+  name: Somtum Muor (Gluten Free)
   thai_name: สัมตำมั่ว
   description: Esaan style papaya salad mixed with fermented fish sauce, noodles, Thai eggplants, pickles, cabbages, green beans, pork sausage, and pork skin chip.
   price: 16
   popular: true
 -
-  name: Somtum Kaikem
+  name: Somtum Kaikem (Gluten Free)
   thai_name: ส้มตำไข่เค็ม
   description: Thai papaya salad with salted egg greens, tomatoes, and peanuts.
   price: 12

@@ -14,7 +14,7 @@
   description: Fried chicken wings marinated with lemongrass, lime leaf, and garlic.
   price: 10
 -
-  name: Chiangmai Sausage
+  name: Chiangmai Sausage (Gluten Free)
   thai_name: ไส้อั่ว
   description: A grilled pork sausage with packed of herby, spicy, and curry flavor. A northern Thai original dish.
   price: 12
@@ -34,7 +34,7 @@
   description: Fried Marinated pork belly serve with tamarind sauce.
   price: 18
 -
-  name: Somtum Thai
+  name: Somtum Thai (Gluten Free)
   thai_name: ส้มตำไทย
   description: Original Thai style spicy papaya salad with green beans, tomatoes, and peanuts.
   price: 10
@@ -54,7 +54,7 @@
   description: Grilled pork shoulder mixed with scallion, red onion, mint, cilantro, chili, and roasted rice.
   price: 18
 -
-  name: Larb Moo
+  name: Larb Moo (Gluten Free)
   thai_name: ลาบหมู
   description: Spicy minced pork mixed with roasted rice and fresh Thai herbs.
   price: 16

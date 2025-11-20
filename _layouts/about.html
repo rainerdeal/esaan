@@ -22,13 +22,11 @@ layout: default
         <!-- {% include soundcloud.html %} -->
 
         <figure>
-            <img src="/images/main/esaan-owner.jpg" alt="ESAAN Tumbar's owner, Tu Yutthpon, standing in his restaurant.">
+            <img src="/images/main/esaan-owner.webp" alt="ESAAN Tumbar's owner, Tu Yutthpon, sitting in his restaurant.">
             <figcaption>ESAAN Tumbar's owner & director, Tu Yutthpon.</figcaption>
         </figure>
 
         {{ content }}
-
-           <div class="container">
 
         <div class="sticker-wrapper">
             <div class="sticker">
@@ -51,11 +49,10 @@ layout: default
             </div>
         </div>
 
-
         <!-- Awards/Reviews -->
         <div class="card-columns" id="card-columns-awards">
 
-            {% for item in site.data.testimonials offset:1 %}
+            {% for item in site.data.testimonials %}
 
                 <div class="card border-0">
                     <div class="card-body" id="card-body-awards">
@@ -67,8 +64,6 @@ layout: default
             {% endfor %}
 
         </div>
-
-    </div>
 
     </div> <!-- /container -->
 

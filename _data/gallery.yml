@@ -27,22 +27,6 @@
   image: images/esaan_gallery/kai_tod_samoon_prai.jpeg
   alt-text: "Kai Tod Samoon Prai close-up."
 -
-  name: Kao Mun Kai Tod
-  image: images/esaan_gallery/kao_mun_kai_tod_2.jpeg
-  alt-text: "A server holding a plate of Kao Mun Kai Tod."
--
-  name: Grilled Squid
-  image: images/esaan_gallery/grilled_squid.jpeg
-  alt-text: "A server holding a plate of Grilled Squid on a bed of lettuce."
--
-  name: Mieng Pla Too
-  image: images/esaan_gallery/mieng_pla_too.jpeg
-  alt-text: "A server holding a plate of Mieng Pla Too on a bed of lettuce and with dipping sauce."
--
-  name: Crispy Pork Belly
-  image: images/esaan_gallery/crispy_pork_belly.jpeg
-  alt-text: "A server holding a plate of Crispy Pork Belly with lettuce, tomato, cucumber, and dipping sauce."
--
   name: Kao Soi
   image: images/esaan_gallery/kao_soi.jpeg
   alt-text: "A server holding a bowl of Kao Soi with chicken."
@@ -94,10 +78,6 @@
   name: Pla Tod Samun Prai
   image: images/esaan_gallery/pla_tod_samun_prai.jpg
   alt-text: "Grilled fish served with lettuce, cashews, red onions, and cilantro."
--
-  name: Shrimp Cracker
-  image: images/esaan_gallery/shrimp_cracker.jpg
-  alt-text: "Close up of shrimp cracker appetizer with a dipping sauce."
 -
   name: Somtum Muor
   image: images/esaan_gallery/somtum_muor.jpg

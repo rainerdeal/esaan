@@ -1,59 +1,46 @@
 -
+  name: Crispy Fried Tofu
+  image: images/esaan_gallery/crispy_fried_tofu.JPG
+-
+  name: Crispy Pork Belly
+  image: images/esaan_gallery/crispy_pork_belly.JPG
+-
+  name: Grilled Pork Shoulder
+  image: images/esaan_gallery/grilled_pork_shoulder.PNG
+-
+  name: Grilled Prawn Tom Yum Creamy Hot Pot
+  image: images/esaan_gallery/grilled_prawn_tom_yum_creamy_hot_pot.JPG
+-
+  name: Grilled Soft Shell Crab
+  image: images/esaan_gallery/grilled_soft_shell_crab.jpg
+-
+  name: Kaprow Softbone Pork Rib
+  image: images/esaan_gallery/kaprow_softbone_pork_rib.JPG
+-
+  name: Mieng Pla Too
+  image: images/esaan_gallery/mieng_pla_too.JPG
+-
+  name: Shanghai Drunken Noodles
+  image: images/esaan_gallery/shanghai_drunken_noodles.jpg
+-
+  name: Steamed Branzino Hot Pot
+  image: images/esaan_gallery/steamed_branzino_hot_pot.JPG
+-
   name: Crispy Spicy Prawns
   image: images/main/crispy_spicy_prawns.JPG
   alt-text: "Large prawns resting on a bamboo leaf and white plate."
--
-  name: NY Strip with Coconut Rice and Green Curry
-  image: images/esaan_gallery/coconut_rice_green_curry.jpeg
-  alt-text: "Coconut rice resting on a bamboo leaf with a large cut of NY strip steak and green curry."
--
-  name: Larb Moo
-  image: images/esaan_gallery/larb_moo.JPG
-  alt-text: "Ground pork and vegetables resting on a bamboo leaf on a white plate."
--
-  name: Kao Soi Beef
-  image: images/esaan_gallery/kao_soi_beef.JPG
-  alt-text: "Beef and vegetables in curry."
--
-  name: Tom Yum Noodle Soup
-  image: images/esaan_gallery/tom_yum_noodle_soup.jpeg
-  alt-text: "Tom Yum Noodle Soup on a wooden table."
--
-  name: Soft-shell Crab
-  image: images/esaan_gallery/soft-shell_crab.jpeg
-  alt-text: "A server holding a plate of soft-shell crab."
 -
   name: Kai Tod Samoon Prai
   image: images/esaan_gallery/kai_tod_samoon_prai.jpeg
   alt-text: "Kai Tod Samoon Prai close-up."
 -
-  name: Kao Soi
-  image: images/esaan_gallery/kao_soi.jpeg
-  alt-text: "A server holding a bowl of Kao Soi with chicken."
--
   name: Grilled Soft-shell Crab
   image: images/esaan_gallery/grilled_soft-shell_crab.jpeg
   alt-text: "A plate of grilled soft-shell crab on a bed of lettuce with red onions, tomato, and drizzled in sauce."
 -
-  name: Crying Tiger
-  image: images/esaan_gallery/crying_tiger.jpg
-  alt-text: "Crying Tiger close up."
--
-  name: Crying Tiger
-  image: images/esaan_gallery/crying_tiger_2.jpg
-  alt-text: "Crying Tiger close up."
--
-  name: Kao Kluk Ka Pi
-  image: images/esaan_gallery/kao_kluk_ka_pi.jpg
-  alt-text: "Overhead shot of Kao Kluk Ka Pi on a table."
--
   name: Kao Mun Kai Tod
   image: images/esaan_gallery/kao_mun_kai_tod.jpeg
   alt-text: "Overhead shot of Kao Mun Kai Tod."
--
-  name: Kor Moo Yang
-  image: images/esaan_gallery/kor_moo_yang.jpg
-  alt-text: "Kor Moo Yang served with grilled tomato, lemon, and cilantro."
 -
   name: Larb Hed
   image: images/esaan_gallery/larb_hed.jpg

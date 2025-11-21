@@ -1,0 +1,441 @@
+---
+layout: default
+---
+<div class="container">
+
+    <div class="sticker-wrapper">
+        <div class="sticker">
+            <h1 class="title">Menu</h1>
+        </div>
+    </div>
+
+    <!-- Featured -->
+    <div class="jumbotron jombotron-fluid">
+        <div class="container">
+            <style>
+                /* Hero Image */
+                .jumbotron {
+                    background-image: url("images/main/crispy_spicy_prawns.webp");
+                    height: 400px;
+                    background-position: 0% 50%;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    margin-bottom: 0.5rem
+                }
+            </style>
+            <h1 class="display-4">Crispy Spicy Prawns</h1>
+            <script src="https://www.fbgcdn.com/embedder/js/ewm2.js" defer async></script>
+            <a class="btn btn-success btn-md blinking" data-glf-cuid="e80eba53-d6cd-499a-966d-e5fab212a558" data-glf-ruid="3bba37cd-89eb-4828-b982-bf1a848625d5">Order now</a>
+        </div>
+    </div>
+
+    <!-- Menu Container -->
+    <div class="container">
+
+        <!-- Menu Nav -->
+        <div class="nav nav-pills nav-fill" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <a class="nav-link active" id="v-pills-special-tab" data-toggle="pill" href="#v-pills-special" role="tab" aria-controls="v-pills-special" aria-selected="true">Summer Special</a>
+            <a class="nav-link" id="v-pills-apps-tab" data-toggle="pill" href="#v-pills-apps" role="tab" aria-controls="v-pills-apps" aria-selected="false">Appetizer</a>
+            <a class="nav-link" id="v-pills-somtum-tab" data-toggle="pill" href="#v-pills-somtum" role="tab" aria-controls="v-pills-somtum" aria-selected="false"><img src="images/icons/icons8-mortar-and-pestle-100.png" style="height:1.25rem;"></a>
+            <a class="nav-link" id="v-pills-rice-and-noodles-tab" data-toggle="pill" href="#v-pills-rice-and-noodles" role="tab" aria-controls="v-pills-rice-and-noodles" aria-selected="false"><img src="images/icons/icons8-rice-bowl-100.png" style="height:1.25rem;"></a>
+            <a class="nav-link" id="v-pills-pork-tab" data-toggle="pill" href="#v-pills-pork" role="tab" aria-controls="v-pills-pork" aria-selected="false"><img src="images/icons/icons8-pig-100.png" style="height:1.25rem;"></a>
+            <a class="nav-link" id="v-pills-chicken-tab" data-toggle="pill" href="#v-pills-chicken" role="tab" aria-controls="v-pills-chicken" aria-selected="false"><img src="images/icons/icons8-chicken-100.png" style="height:1.25rem;"></a>
+            <a class="nav-link" id="v-pills-beef-tab" data-toggle="pill" href="#v-pills-beef" role="tab" aria-controls="v-pills-beef" aria-selected="false"><img src="images/icons/icons8-cow-100.png" style="height:1.25rem;"></a>
+            <a class="nav-link" id="v-pills-seafood-tab" data-toggle="pill" href="#v-pills-seafood" role="tab" aria-controls="v-pills-seafood" aria-selected="false"><img src="images/icons/icons8-prawn-100.png" style="height:1.25rem;"></a>
+            <a class="nav-link" id="v-pills-fish-tab" data-toggle="pill" href="#v-pills-fish" role="tab" aria-controls="v-pills-fish" aria-selected="false"><img src="images/icons/icons8-bream-100.png" style="height:1.25rem;"></a>
+            <a class="nav-link" id="v-pills-veggie-tab" data-toggle="pill" href="#v-pills-veggie" role="tab" aria-controls="v-pills-veggie" aria-selected="false"><img src="images/icons/icons8-carrot-100.png" style="height:1.25rem;"></a>
+            <a class="nav-link" id="v-pills-dessert-tab" data-toggle="pill" href="#v-pills-dessert" role="tab" aria-controls="v-pills-dessert" aria-selected="false"><img src="images/icons/icons8-banana-split-100.png" style="height:1.25rem;"></a>
+            <a class="nav-link" id="v-pills-drinks-tab" data-toggle="pill" href="#v-pills-drinks" role="tab" aria-controls="v-pills-drinks" aria-selected="false"><img src="images/icons/icons8-coconut-cocktail-100.png" style="height:1.25rem;"></a>
+            <a class="nav-link" id="v-pills-sides-tab" data-toggle="pill" href="#v-pills-sides" role="tab" aria-controls="v-pills-sides" aria-selected="false">Sides</a>
+            <a class="nav-link" id="v-pills-weekend-tab" data-toggle="pill" href="#v-pills-weekend" role="tab" aria-controls="v-pills-weekend" aria-selected="false">Weekend Special</a>
+        </div>
+
+        <!-- Menu Content -->
+        <div class="tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="v-pills-special" role="tabpanel" aria-labelledby="v-pills-special-tab">
+                <div class="sticker-wrapper">
+                    <div class="sticker">
+                        <h1 class="title">Summer Special</h1>
+                    </div>
+                </div>
+                <div class="card-columns">
+                    {% for item in site.data.summer %}
+                        <div class="card border-dark">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ item.name }} | {{ item.price }}
+                                    {% if item.popular %}
+                                        <span class="badge rounded-pill bg-danger float-right">Popular</span>
+                                    {% endif %}
+                                </h5>
+                                <h6 class="card-subtitle mb-2 text-muted">{{ item.thai_name }}</h6>
+                                <p class="card-text">{{ item.description }}</p>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="tab-pane fade" id="v-pills-apps" role="tabpanel" aria-labelledby="v-pills-apps-tab">
+                <div class="sticker-wrapper">
+                    <div class="sticker">
+                        <h1 class="title">Appetizer</h1>
+                    </div>
+                </div>
+                <div class="card-columns">
+                    {% for item in site.data.apps %}
+                        <div class="card border-dark">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ item.name }} | {{ item.price }}
+                                    {% if item.popular %}
+                                        <span class="badge rounded-pill bg-danger float-right">Popular</span>
+                                    {% endif %}
+                                </h5>
+                                <h6 class="card-subtitle mb-2 text-muted">{{ item.thai_name }}</h6>
+                                <p class="card-text">{{ item.description }}</p>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="tab-pane fade" id="v-pills-somtum" role="tabpanel" aria-labelledby="v-pills-somtum-tab">
+                <div class="sticker-wrapper">
+                    <div class="sticker">
+                        <h1 class="title">Somtum</h1>
+                    </div>
+                </div>
+                <div class="card-columns">
+                    {% for item in site.data.somtum %}
+                        <div class="card border-dark">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ item.name }} | {{ item.price }}
+                                    {% if item.popular %}
+                                        <span class="badge rounded-pill bg-danger float-right">Popular</span>
+                                    {% endif %}
+                                </h5>
+                                <h6 class="card-subtitle mb-2 text-muted">{{ item.thai_name }}</h6>
+                                <p class="card-text">{{ item.description }}</p>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="tab-pane fade" id="v-pills-rice-and-noodles" role="tabpanel" aria-labelledby="v-pills-rice-and-noodles-tab">
+                <div class="sticker-wrapper">
+                    <div class="sticker">
+                        <h1 class="title">Rice & Noodles</h1>
+                    </div>
+                </div>
+                <div class="card-columns">
+                    {% for item in site.data.rice_and_noodles %}
+                        <div class="card border-dark">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ item.name }} | {{ item.price }}
+                                    {% if item.popular %}
+                                        <span class="badge rounded-pill bg-danger float-right">Popular</span>
+                                    {% endif %}
+                                </h5>
+                                <h6 class="card-subtitle mb-2 text-muted">{{ item.thai_name }}</h6>
+                                <p class="card-text">{{ item.description }}</p>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="tab-pane fade" id="v-pills-pork" role="tabpanel" aria-labelledby="v-pills-pork-tab">
+                <div class="sticker-wrapper">
+                    <div class="sticker">
+                        <h1 class="title">Pork</h1>
+                    </div>
+                </div>
+                <div class="card-columns">
+                    {% for item in site.data.pork %}
+                        <div class="card border-dark">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ item.name }} | {{ item.price }}
+                                    {% if item.popular %}
+                                        <span class="badge rounded-pill bg-danger float-right">Popular</span>
+                                    {% endif %}
+                                </h5>
+                                <h6 class="card-subtitle mb-2 text-muted">{{ item.thai_name }}</h6>
+                                <p class="card-text">{{ item.description }}</p>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="tab-pane fade" id="v-pills-chicken" role="tabpanel" aria-labelledby="v-pills-chicken-tab">
+                <div class="sticker-wrapper">
+                    <div class="sticker">
+                        <h1 class="title">Chicken</h1>
+                    </div>
+                </div>
+                <div class="card-columns">
+                    {% for item in site.data.chicken %}
+                        <div class="card border-dark">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ item.name }} | {{ item.price }}
+                                    {% if item.popular %}
+                                        <span class="badge rounded-pill bg-danger float-right">Popular</span>
+                                    {% endif %}
+                                </h5>
+                                <h6 class="card-subtitle mb-2 text-muted">{{ item.thai_name }}</h6>
+                                <p class="card-text">{{ item.description }}</p>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="tab-pane fade" id="v-pills-beef" role="tabpanel" aria-labelledby="v-pills-beef-tab">
+                <div class="sticker-wrapper">
+                    <div class="sticker">
+                        <h1 class="title">*Beef</h1>
+                    </div>
+                </div>
+                <div class="card-columns">
+                    {% for item in site.data.beef %}
+                        <div class="card border-dark">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ item.name }} | {{ item.price }}
+                                    {% if item.popular %}
+                                        <span class="badge rounded-pill bg-danger float-right">Popular</span>
+                                    {% endif %}
+                                </h5>
+                                <h6 class="card-subtitle mb-2 text-muted">{{ item.thai_name }}</h6>
+                                <p class="card-text">{{ item.description }}</p>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="tab-pane fade" id="v-pills-seafood" role="tabpanel" aria-labelledby="v-pills-seafood-tab">
+                <div class="sticker-wrapper">
+                    <div class="sticker">
+                        <h1 class="title">Seafood</h1>
+                    </div>
+                </div>
+                <div class="card-columns">
+                    {% for item in site.data.seafood %}
+                        <div class="card border-dark">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ item.name }} | {{ item.price }}
+                                    {% if item.popular %}
+                                        <span class="badge rounded-pill bg-danger float-right">Popular</span>
+                                    {% endif %}
+                                </h5>
+                                <h6 class="card-subtitle mb-2 text-muted">{{ item.thai_name }}</h6>
+                                <p class="card-text">{{ item.description }}</p>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="tab-pane fade" id="v-pills-fish" role="tabpanel" aria-labelledby="v-pills-fish-tab">
+                <div class="sticker-wrapper">
+                    <div class="sticker">
+                        <h1 class="title">Fish</h1>
+                    </div>
+                </div>
+                <div class="card-columns">
+                    {% for item in site.data.fish %}
+                        <div class="card border-dark">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ item.name }} | {{ item.price }}
+                                    {% if item.popular %}
+                                        <span class="badge rounded-pill bg-danger float-right">Popular</span>
+                                    {% endif %}
+                                </h5>
+                                <h6 class="card-subtitle mb-2 text-muted">{{ item.thai_name }}</h6>
+                                <p class="card-text">{{ item.description }}</p>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="tab-pane fade" id="v-pills-veggie" role="tabpanel" aria-labelledby="v-pills-veggie-tab">
+                <div class="sticker-wrapper">
+                    <div class="sticker">
+                        <h1 class="title">Vegetarian</h1>
+                    </div>
+                </div>
+                <div class="card-columns">
+                    {% for item in site.data.veggie %}
+                        <div class="card border-dark">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ item.name }} | {{ item.price }}
+                                    {% if item.popular %}
+                                        <span class="badge rounded-pill bg-danger float-right">Popular</span>
+                                    {% endif %}
+                                </h5>
+                                <h6 class="card-subtitle mb-2 text-muted">{{ item.thai_name }}</h6>
+                                <p class="card-text">{{ item.description }}</p>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="tab-pane fade" id="v-pills-dessert" role="tabpanel" aria-labelledby="v-pills-dessert-tab">
+                <div class="sticker-wrapper">
+                    <div class="sticker">
+                        <h1 class="title">Dessert</h1>
+                    </div>
+                </div>
+                <div class="card-columns">
+                    {% for item in site.data.dessert %}
+                        <div class="card border-dark">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ item.name }} | {{ item.price }}
+                                    {% if item.popular %}
+                                        <span class="badge rounded-pill bg-danger float-right">Popular</span>
+                                    {% endif %}
+                                </h5>
+                                <h6 class="card-subtitle mb-2 text-muted">{{ item.thai_name }}</h6>
+                                <p class="card-text">{{ item.description }}</p>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="tab-pane fade" id="v-pills-drinks" role="tabpanel" aria-labelledby="v-pills-drinks-tab">
+
+                <div class="sticker-wrapper">
+                    <div class="sticker">
+                        <h1 class="title">Drinks</h1>
+                    </div>
+                </div>
+                <div class="card-columns">
+                    {% for item in site.data.drinks %}
+                        <div class="card border-dark">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ item.name }} | {{ item.price }}
+                                    {% if item.popular %}
+                                        <span class="badge rounded-pill bg-danger float-right">Popular</span>
+                                    {% endif %}
+                                </h5>
+                                <h6 class="card-subtitle mb-2 text-muted">{{ item.thai_name }}</h6>
+                                <p class="card-text">{{ item.description }}</p>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+
+                <div class="sticker-wrapper">
+                    <div class="sticker">
+                        <h1 class="title">Beer</h1>
+                    </div>
+                </div>
+                <div class="card-columns">
+                    {% for item in site.data.beer %}
+                        <div class="card border-dark">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ item.name }} | {{ item.price }}
+                                    {% if item.popular %}
+                                        <span class="badge rounded-pill bg-danger float-right">Popular</span>
+                                    {% endif %}
+                                </h5>
+                                <h6 class="card-subtitle mb-2 text-muted">{{ item.thai_name }}</h6>
+                                <p class="card-text">{{ item.description }}</p>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+
+                <div class="sticker-wrapper">
+                    <div class="sticker">
+                        <h1 class="title">Cocktails</h1>
+                    </div>
+                </div>
+                <div class="card-columns">
+                    {% for item in site.data.cocktails %}
+                        <div class="card border-dark">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ item.name }} | {{ item.price }}
+                                    {% if item.popular %}
+                                        <span class="badge rounded-pill bg-danger float-right">Popular</span>
+                                    {% endif %}
+                                </h5>
+                                <h6 class="card-subtitle mb-2 text-muted">{{ item.thai_name }}</h6>
+                                <p class="card-text">{{ item.description }}</p>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+
+                <div class="sticker-wrapper">
+                    <div class="sticker">
+                        <h1 class="title">Red Wine</h1>
+                    </div>
+                </div>
+                <div class="card-columns">
+                    {% for item in site.data.red_wine %}
+                        <div class="card border-dark">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ item.name }} | {{ item.price }}
+                                    {% if item.popular %}
+                                        <span class="badge rounded-pill bg-danger float-right">Popular</span>
+                                    {% endif %}
+                                </h5>
+                                <h6 class="card-subtitle mb-2 text-muted">{{ item.style }} - {{ item.origination }}</h6>
+                                <p class="card-text">{{ item.description }}</p>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+
+                <div class="sticker-wrapper">
+                    <div class="sticker">
+                        <h1 class="title">White Wine</h1>
+                    </div>
+                </div>
+                <div class="card-columns">
+                    {% for item in site.data.white_wine %}
+                        <div class="card border-dark">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ item.name }} | {{ item.price }}
+                                    {% if item.popular %}
+                                        <span class="badge rounded-pill bg-danger float-right">Popular</span>
+                                    {% endif %}
+                                </h5>
+                                <h6 class="card-subtitle mb-2 text-muted">{{ item.style }} - {{ item.origination }}</h6>
+                                <p class="card-text">{{ item.description }}</p>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+
+            </div>
+            <div class="tab-pane fade" id="v-pills-sides" role="tabpanel" aria-labelledby="v-pills-sides-tab">
+                <div class="sticker-wrapper">
+                    <div class="sticker">
+                        <h1 class="title">Side</h1>
+                    </div>
+                </div>
+                <div class="card-columns">
+                    {% for item in site.data.sides %}
+                        <div class="card border-dark">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ item.name }} | {{ item.price }}
+                                    {% if item.popular %}
+                                        <span class="badge rounded-pill bg-danger float-right">Popular</span>
+                                    {% endif %}
+                                </h5>
+                                <h6 class="card-subtitle mb-2 text-muted">{{ item.thai_name }}</h6>
+                                <p class="card-text">{{ item.description }}</p>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="tab-pane fade" id="v-pills-weekend" role="tabpanel" aria-labelledby="v-pills-weekend-tab">
+                <div class="card border-dark">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Weekend Special</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">(703) 288-3901</h6>
+                        <p class="card-text">Each weekend we serve different Bangkok street foods. Call and talk to our service team to find out what we will be serving!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{ content }}
+
+</div>
